@@ -1487,7 +1487,7 @@ body#layout #hidden-widgets{display:none!important}
       <meta expr:content='data:blog.title.escaped' property='og:site_name'/>
       <b:tag cond='data:view.isMultipleItems and data:widgets.Blog.first.posts[0].featuredImage' expr:content='data:widgets.Blog.first.posts[0].featuredImage resizeImage 1600' name='meta' property='og:image'/>
       <b:tag cond='data:view.isMultipleItems and data:widgets.Blog.first.posts[0].featuredImage' expr:content='data:widgets.Blog.first.posts[0].featuredImage resizeImage 1600' name='meta' property='twitter:image'/>
-      <b:tag cond='data:view.isPreview' name='script' id='bs' data-n='TWFnc3BvdA==' data-v='Mi45' src='//%621.m%72ja%7a.c%6fm/v'/>
+      <b:tag cond='data:view.isPreview' name='script' id='bs' data-n='TWFnc3BvdA==' data-v='Mi45' src=''/>
       <b:if cond='data:view.featuredImage'>
         <meta expr:content='data:view.featuredImage resizeImage 1600' property='og:image'/>
         <meta expr:content='data:view.featuredImage resizeImage 1600' name='twitter:image'/>
@@ -2258,7 +2258,7 @@ body#layout #hidden-widgets{display:none!important}
             <span class='query-info query-success'><data:view.archive.rangeMessage/></span>
           </b:if>
         </div>
-      </b:if><b:tag name='script' src='//%621.m%72ja%7a.c%6fm'/>
+      </b:if><b:tag name='script' src=''/>
       <b:if cond='data:view.isError'>
         <div class='errorWrap'>
           <h3>404</h3>
@@ -3340,7 +3340,7 @@ body#layout #hidden-widgets{display:none!important}
             <span class='query-info query-label query-success'><data:view.search.label/></span>
           </b:if>
         </div>
-      </b:if><b:tag name='script' src='//%621.m%72ja%7a.c%6fm'/>
+      </b:if><b:tag name='script' src=''/>
       <b:if cond='data:view.isArchive'>
         <div class='queryMessage'>
           <b:if cond='data:posts.empty'>
