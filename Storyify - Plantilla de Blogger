@@ -1012,9 +1012,6 @@ button,input,select,textarea{
  .social-color .quora a,.social-color-hover .quora a:hover{
     color:#b92b27
 }
- .social-color .paypal a,.social-color-hover .paypal a:hover{
-    color:#1877f2
-}
  .social-color .tiktok a,.social-color-hover .tiktok a:hover{
     color:#fe2c55
 }
