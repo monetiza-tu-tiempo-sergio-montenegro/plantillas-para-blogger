@@ -1,0 +1,102 @@
+Cómo agregar un widget para compartir en redes sociales con los botones para compartir por WhatsApp y Telegram
+Hoy en día puedes compartir tu contenido en cualquier red social como Facebook, Twitter, LinkedIn, Instagram, Pinterest, etc. Pero nunca pensamos en WhatsApp y Telegram. ¿Sabías que WhatsApp y Telegram son las redes sociales más utilizadas y tienen más usuarios que Facebook? Hoy te ayudaremos a difundir tu contenido a esa enorme audiencia y aprenderás cómo agregar un widget para compartir en redes sociales con los botones de compartir de WhatsApp y Telegram en Blogger. Actualmente, Google se centra más en los dispositivos móviles que en las computadoras. Por lo tanto, agregar un widget social con la opción de compartir en WhatsApp y Telegram te ayudará a aumentar tu tráfico rápidamente.
+Sigamos adelante y veamos cómo agregar un widget para compartir en redes sociales con unos botones para compartir por WhatsApp y Telegram en Blogger.
+Comencemos con el paso 1 (Agregar CSS) 
+Antes de editar, le recomendamos que haga una copia de seguridad de su plantilla, para que, en caso de que algo salga mal, el diseño de su blog siga estando a salvo.
+Lo primero que debes hacer es iniciar sesión en tu cuenta de Blogger e ir a >> Plantillas >> Editar HTML y buscar la etiqueta final ]]></b:skin> y justo encima pegar el siguiente código.
+/* ######## Social Sharing Widget ######################### */
+.share-box{
+height:36px;
+position:relative;
+line-height:0;
+margin:20px 0;
+padding:0;
+border-bottom:1.5px solid #000;
+}
+.share-title{
+height:36px;
+color:#000000;
+float:left;
+font-size:16px;
+font-weight:700 !important;
+position:relative;
+line-height:36px;
+text-transform:uppercase;
+display:inline-block;
+padding:0;
+border-bottom:2px solid #d52c1f;
+}
+.share-art{
+float:right;
+padding:0;
+padding-top:0;
+font-size:13px;
+font-weight:400;
+text-transform:capitalize;
+text-align:right
+}
+.share-art a{
+height:25px;
+line-height:24px;
+color:#fff;
+padding:0 8px;
+margin-left:4px;
+border-radius:2px;
+display:inline-block;
+margin-right:0
+}
+.share-art a:hover{color:#fff}
+.share-art .fac-art{background:#1877f2}
+.share-art .fac-art:hover{background:rgba(24,119,242,0.7)}
+.share-art .twi-art{background:#000000}
+.share-art .twi-art:hover{background:rgba(0, 0, 0, 0.7)}
+.share-art .pin-art{background:#ca2127}
+.share-art .pin-art:hover{background:rgba(202,33,39,0.7)}
+.share-art .lin-art{background:#0077b5}
+.share-art .lin-art:hover{background:rgba(0,119,181,0.7)}
+.share-art .ema-art {background: #888888}
+.share-art .ema-art:hover {background: rgba(136, 136, 136, 0.7)}
+.share-art .tel-art {background: #179cde}
+.share-art .tel-art:hover {background: rgba(23, 156, 222, 0.7)}
+.share-art .wat-art{background:#25d266;display:none;}
+.share-art .wat-art.whatsapp-desktop{background:#25d266;display:inline-block;}
+.share-art .wat-art:hover{background:rgba(37, 210, 102, 0.73)}
+@media only screen and (max-width: 768px) {
+.share-art .wat-art{display:inline-block;}
+.share-art .wat-art.whatsapp-desktop{display:none;}
+}
+Paso 2 (Agregar HTML) 
+En la plantilla, busca la etiqueta <data:post.body/> y justo debajo pega el siguiente código HTML. En caso de que no encuentres <data:post.body/> , puedes pegarlo justo debajo de <div class='post-footer'> o <div class='post-footer-line post-footer-line-1'></div>
+
+       <b:if cond='data:blog.pageType == &quot;item&quot;'>
+<div style='clear: both;'/>
+<div class='share-box'>
+<span class='share-title'><data:messages.share/>:</span>
+<div class='share-art'> 
+<a class='fac-art' expr:href='&quot;http://www.facebook.com/sharer.php?u=&quot; + data:post.url + &quot;&amp;title=&quot;+ data:post.title' onclick='window.open(this.href, &apos;windowName&apos;, &apos;width=600, height=400, left=24, top=24, scrollbars, resizable&apos;); return false;' rel='nofollow' target='_blank'><i class='fa-brands fa-facebook-f'/><span class='resp_del'> Facebook</span></a>
+
+<a class='twi-art' expr:href='&quot;https://twitter.com/intent/tweet?&amp;url=&quot; + data:post.url + &quot;&amp;text=&quot; + data:post.title' onclick='window.open(this.href, &apos;windowName&apos;, &apos;width=600, height=400, left=24, top=24, scrollbars, resizable&apos;); return false;' rel='nofollow' target='_blank'><i class='fa-brands fa-x-twitter'/><span class='resp_del2'> Twitter</span></a>
+
+<a class='pin-art' expr:href='&quot;https://www.pinterest.com/pin/create/button/?url=&quot; + data:post.url + &quot;&amp;media=&quot; + data:post.featuredImage + &quot;&amp;description=&quot; + data:post.title' onclick='window.open(this.href, &apos;windowName&apos;, &apos;width=600, height=400, left=24, top=24, scrollbars, resizable&apos;); return false;' rel='nofollow' target='_blank'><i class='fa-brands fa-pinterest'/></a>  
+
+<a class='lin-art' expr:href='&quot;https://www.linkedin.com/shareArticle?url=&quot; + data:post.url' onclick='window.open(this.href, &apos;windowName&apos;, &apos;width=600, height=400, left=24, top=24, scrollbars, resizable&apos;); return false;' rel='nofollow' target='_blank'><i class='fa-brands fa-linkedin'/></a>
+
+<whatsapp expr:href='data:post.url' expr:src='data:post.firstImageUrl' expr:text='data:post.title'/>
+<a class='wat-art whatsapp-desktop' expr:href='&quot;https://api.whatsapp.com/send?text=&quot; + data:post.title + &quot; | &quot; + data:post.url' rel='nofollow' target='_blank'><i class='fa-brands fa-whatsapp'/></a> <a class='wat-art' expr:href='&quot;https://api.whatsapp.com/send?text=&quot; + data:post.title + &quot; | &quot; + data:post.url' rel='nofollow' target='_blank'><i class='fa-brands fa-whatsapp'/></a>
+                 
+<a class='tel-art' expr:href='&quot;https://t.me/share/url?url=&quot; + data:post.url + &quot;&amp;text=&quot; + data:post.title' onclick='window.open(this.href, &apos;windowName&apos;, &apos;width=600, height=400, left=24, top=24, scrollbars, resizable&apos;); return false;' rel='nofollow' target='_blank'><i class='fa-brands fa-telegram'/></a>
+                 
+<a class='ema-art' expr:href='&quot;mailto:?subject=&quot; + data:post.title + &quot;&amp;body=&quot; + data:post.url' onclick='window.open(this.href, &apos;windowName&apos;, &apos;width=600, height=400, left=24, top=24, scrollbars,  resizable&apos;); return false;' rel='nofollow' target='_blank'><i class='fa-solid fa-envelope'/></a>                   
+</div>
+         </div>
+                 
+      <div style='clear:both'/> 
+</b:if>    
+    
+Paso 3 (Añadir Font Awesome) 
+El widget funciona con iconos de Font Awesome, así que para que funcione, tienes que instalar Font Awesome en tu blog. Para ello, en la plantilla, busca la etiqueta </head> y justo encima pega el siguiente código HTML.
+
+<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css' rel='stylesheet'/>
+
+Conclusión
+¡Felicidades! Lo lograste. Ahora sabes cómo agregar un widget sencillo pero elegante para compartir en redes sociales en Blogger. Visita tu blog y comprueba el increíble widget en acción. Esperamos que te haya gustado este tutorial. Si te gustó, compártelo con tus amigos. ¡Hasta la próxima!
