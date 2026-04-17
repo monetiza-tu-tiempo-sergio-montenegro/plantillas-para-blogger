@@ -11,7 +11,7 @@ position:relative;
 line-height:0;
 margin:20px 0;
 padding:0;
-border-bottom:1.5px solid #000;
+border-bottom:2px solid #000;
 }
 .share-title{
 height:36px;
@@ -30,20 +30,23 @@ border-bottom:2px solid #d52c1f;
 float:right;
 padding:0;
 padding-top:0;
-font-size:13px;
+font-size:14px;
 font-weight:400;
 text-transform:capitalize;
 text-align:right
 }
 .share-art a{
-height:25px;
-line-height:24px;
+height:26px;
+line-height:26px;
 color:#fff;
-padding:0 8px;
+padding:0 10px;
 margin-left:4px;
-border-radius:2px;
+border-radius:3px;
 display:inline-block;
 margin-right:0
+}
+.share-art a span {
+    display: none;
 }
 .share-art a:hover{color:#fff}
 .share-art .fac-art{background:#1877f2}
@@ -71,22 +74,23 @@ En la plantilla, busca la etiqueta <data:post.body/> y justo debajo pega el sigu
 <b:if cond='data:blog.pageType == &quot;item&quot;'>
 <div style='clear: both;'/>
 <div class='share-box'>
-<span class='share-title'><data:messages.share/>:</span>
+<span class='share-title'><i class='fa fa-share'/> <data:messages.share/>:</span>
 <div class='share-art'> 
 <a class='fac-art' expr:href='&quot;http://www.facebook.com/sharer.php?u=&quot; + data:post.url + &quot;&amp;title=&quot;+ data:post.title' onclick='window.open(this.href, &apos;windowName&apos;, &apos;width=600, height=400, left=24, top=24, scrollbars, resizable&apos;); return false;' rel='nofollow' target='_blank'><i class='fa fa-facebook'/><span class='resp_del'> Facebook</span></a>
 
 <a class='twi-art' expr:href='&quot;https://twitter.com/intent/tweet?&amp;url=&quot; + data:post.url + &quot;&amp;text=&quot; + data:post.title' onclick='window.open(this.href, &apos;windowName&apos;, &apos;width=600, height=400, left=24, top=24, scrollbars, resizable&apos;); return false;' rel='nofollow' target='_blank'><i class='fa fa-twitter'/><span class='resp_del2'> Twitter</span></a>
 
-<a class='pin-art' expr:href='&quot;https://www.pinterest.com/pin/create/button/?url=&quot; + data:post.url + &quot;&amp;media=&quot; + data:post.featuredImage + &quot;&amp;description=&quot; + data:post.title' onclick='window.open(this.href, &apos;windowName&apos;, &apos;width=600, height=400, left=24, top=24, scrollbars, resizable&apos;); return false;' rel='nofollow' target='_blank'><i class='fa fa-pinterest'/></a>  
+<a class='pin-art' expr:href='&quot;https://www.pinterest.com/pin/create/button/?url=&quot; + data:post.url + &quot;&amp;media=&quot; + data:post.featuredImage + &quot;&amp;description=&quot; + data:post.title' onclick='window.open(this.href, &apos;windowName&apos;, &apos;width=600, height=400, left=24, top=24, scrollbars, resizable&apos;); return false;' rel='nofollow' target='_blank'><i class='fa fa-pinterest'/><span class='resp_del4'> Pinterest</span></a>
 
-<a class='lin-art' expr:href='&quot;https://www.linkedin.com/shareArticle?url=&quot; + data:post.url' onclick='window.open(this.href, &apos;windowName&apos;, &apos;width=600, height=400, left=24, top=24, scrollbars, resizable&apos;); return false;' rel='nofollow' target='_blank'><i class='fa fa-linkedin'/></a>
+<a class='lin-art' expr:href='&quot;https://www.linkedin.com/shareArticle?url=&quot; + data:post.url' onclick='window.open(this.href, &apos;windowName&apos;, &apos;width=600, height=400, left=24, top=24, scrollbars, resizable&apos;); return false;' rel='nofollow' target='_blank'><i class='fa fa-linkedin'/><span class='resp_del5'> Linkedin</span></a>
 
 <whatsapp expr:href='data:post.url' expr:src='data:post.firstImageUrl' expr:text='data:post.title'/>
-<a class='wat-art whatsapp-desktop' expr:href='&quot;https://api.whatsapp.com/send?text=&quot; + data:post.title + &quot; | &quot; + data:post.url' rel='nofollow' target='_blank'><i class='fa fa-whatsapp'/></a> <a class='wat-art' expr:href='&quot;https://api.whatsapp.com/send?text=&quot; + data:post.title + &quot; | &quot; + data:post.url' rel='nofollow' target='_blank'><i class='fa fa-whatsapp'/></a>
+<a class='wat-art whatsapp-desktop' expr:href='&quot;https://api.whatsapp.com/send?text=&quot; + data:post.title + &quot; | &quot; + data:post.url' rel='nofollow' target='_blank'><i class='fa fa-whatsapp'/><span class='resp_del5'> Whatsapp</span></a> <a class='wat-art' expr:href='&quot;https://api.whatsapp.com/send?text=&quot; + data:post.title + &quot; | &quot; + data:post.url' rel='nofollow' target='_blank'><i class='fa fa-whatsapp'/><span class='resp_del5'> Whatsapp</span></a>
                  
-<a class='tel-art' expr:href='&quot;https://t.me/share/url?url=&quot; + data:post.url + &quot;&amp;text=&quot; + data:post.title' onclick='window.open(this.href, &apos;windowName&apos;, &apos;width=600, height=400, left=24, top=24, scrollbars, resizable&apos;); return false;' rel='nofollow' target='_blank'><i class='fa fa-telegram'/></a>
+<a class='tel-art' expr:href='&quot;https://t.me/share/url?url=&quot; + data:post.url + &quot;&amp;text=&quot; + data:post.title' onclick='window.open(this.href, &apos;windowName&apos;, &apos;width=600, height=400, left=24, top=24, scrollbars, resizable&apos;); return false;' rel='nofollow' target='_blank'><i class='fa fa-telegram'/><span class='resp_del5'> Telegram</span></a>
                  
-<a class='ema-art' expr:href='&quot;mailto:?subject=&quot; + data:post.title + &quot;&amp;body=&quot; + data:post.url' onclick='window.open(this.href, &apos;windowName&apos;, &apos;width=600, height=400, left=24, top=24, scrollbars,  resizable&apos;); return false;' rel='nofollow' target='_blank'><i class='fa fa-envelope'/></a>                   
+<a class='ema-art' expr:href='&quot;mailto:?subject=&quot; + data:post.title + &quot;&amp;body=&quot; + data:post.url' onclick='window.open(this.href, &apos;windowName&apos;, &apos;width=600, height=400, left=24, top=24, scrollbars,  resizable&apos;); return false;' rel='nofollow' target='_blank'><i class='fa fa-envelope'/><span class='resp_del5'> Email</span></a>                   
+                 
 </div>
          </div>
                  
