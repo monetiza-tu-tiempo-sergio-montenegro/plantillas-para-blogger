@@ -4,7 +4,7 @@ Sigamos adelante y veamos cómo agregar un widget para compartir en redes social
 Comencemos con el paso 1 (Agregar CSS) 
 Antes de editar, le recomendamos que haga una copia de seguridad de su plantilla, para que, en caso de que algo salga mal, el diseño de su blog siga estando a salvo.
 Lo primero que debes hacer es iniciar sesión en tu cuenta de Blogger e ir a >> Plantillas >> Editar HTML y buscar la etiqueta final ]]></b:skin> y justo encima pegar el siguiente código.
-/* ######## Social Sharing Widget ######################### */
+/* ######## Widget para compartir en redes sociales ######################### */
 .share-box{
 height:36px;
 position:relative;
