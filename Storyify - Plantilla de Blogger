@@ -177,10 +177,10 @@ Author Url:   https://www.templateify.com/
 @font-face{font-family:'Inter';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/inter/v2/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa25L7SUc.woff2) format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}
 @font-face{font-family:'Inter';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/inter/v2/UcC73FwrK3iLTeHuS_fvQtMwCp50KnMa1ZL7.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
 
-/*-- Font Awesome Free 5.15.1 --*/
-@font-face{font-family:"Font Awesome 5 Brands";font-display:swap;font-style:normal;font-weight:400;font-display:block;src:url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-brands-400.eot);src:url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-brands-400.woff2) format("woff2"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-brands-400.woff) format("woff"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-brands-400.ttf) format("truetype"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-brands-400.svg#fontawesome) format("svg")}.fab{font-family:"Font Awesome 5 Brands";font-weight:400}
-@font-face{font-family:"Font Awesome 5 Free";font-display:swap;font-style:normal;font-weight:400;font-display:block;src:url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-regular-400.eot);src:url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-regular-400.woff2) format("woff2"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-regular-400.woff) format("woff"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-regular-400.ttf) format("truetype"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-regular-400.svg#fontawesome) format("svg")}.far{font-family:"Font Awesome 5 Free";font-weight:400}
-@font-face{font-family:"Font Awesome 5 Free";font-display:swap;font-style:normal;font-weight:900;font-display:block;src:url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-solid-900.eot);src:url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-solid-900.woff2) format("woff2"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-solid-900.woff) format("woff"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-solid-900.ttf) format("truetype"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/webfonts/fa-solid-900.svg#fontawesome) format("svg")}.fa,.far,.fas{font-family:"Font Awesome 5 Free"}.fa,.fas{font-weight:900}
+/*-- Font Awesome Free 5.15.4 --*/
+@font-face{font-family:"Font Awesome 5 Brands";font-display:swap;font-style:normal;font-weight:400;font-display:block;src:url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-brands-400.eot);src:url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-brands-400.woff2) format("woff2"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-brands-400.woff) format("woff"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-brands-400.ttf) format("truetype"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-brands-400.svg#fontawesome) format("svg")}.fab{font-family:"Font Awesome 5 Brands";font-weight:400}
+@font-face{font-family:"Font Awesome 5 Free";font-display:swap;font-style:normal;font-weight:400;font-display:block;src:url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-regular-400.eot);src:url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-regular-400.eot?#iefix) format("embedded-opentype"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-regular-400.woff2) format("woff2"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-regular-400.woff) format("woff"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-regular-400.ttf) format("truetype"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-regular-400.svg#fontawesome) format("svg")}.far{font-family:"Font Awesome 5 Free";font-weight:400}
+@font-face{font-family:"Font Awesome 5 Free";font-display:swap;font-style:normal;font-weight:900;font-display:block;src:url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-solid-900.eot);src:url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-solid-900.eot?#iefix) format("embedded-opentype"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-solid-900.woff2) format("woff2"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-solid-900.woff) format("woff"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-solid-900.ttf) format("truetype"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-solid-900.svg#fontawesome) format("svg")}.fa,.far,.fas{font-family:"Font Awesome 5 Free"}.fa,.fas{font-weight:900}
 
 /*-- CSS Variables --*/
 :root{
@@ -770,6 +770,9 @@ button,input,select,textarea{
  .social .telegram a:before{
     content:'\f3fe'
 }
+ .social .paypal a:before{
+    content:'\f1ed'
+}
  .social .steam a:before{
     content:'\f3f6'
 }
@@ -778,9 +781,6 @@ button,input,select,textarea{
 }
  .social .quora a:before{
     content:'\f2c4'
-}
- .social .paypal a:before{
-    content:'\f1ed'
 }
  .social .tiktok a:before{
     content:'\e07b'
@@ -812,7 +812,7 @@ button,input,select,textarea{
     background-color:#0067B8
 }
  .social-bg .facebook a,.social-bg .facebook-f a,.social-bg-hover .facebook a:hover,.social-bg-hover .facebook-f a:hover{
-    background-color:#3b5999
+    background-color:#1877f2
 }
  .social-bg .twitter a,.social-bg-hover .twitter a:hover{
     background-color:#00acee
@@ -889,6 +889,9 @@ button,input,select,textarea{
  .social-bg .telegram a,.social-bg-hover .telegram a:hover{
     background-color:#179cde
 }
+ .social-bg .paypal a, .social-bg-hover .paypal a:hover{
+    background-color:#0070ba
+}
  .social-bg .steam a,.social-bg-hover .steam a:hover{
     background:linear-gradient(5deg,#0d89bc,#112c5b,#0d1c47)
 }
@@ -897,9 +900,6 @@ button,input,select,textarea{
 }
  .social-bg .quora a,.social-bg-hover .quora a:hover{
     background-color:#b92b27
-}
- .social-bg .paypal a,.social-bg-hover .paypal a:hover{
-    background-color:#1877f2
 }
  .social-bg .tiktok a,.social-bg-hover .tiktok a:hover{
     background-color:#fe2c55
@@ -926,7 +926,7 @@ button,input,select,textarea{
     color:#0067B8
 }
  .social-color .facebook a,.social-color .facebook-f a,.social-color-hover .facebook a:hover,.social-color-hover .facebook-f a:hover{
-    color:#3b5999
+    color:#1877f2
 }
  .social-color .twitter a,.social-color-hover .twitter a:hover{
     color:#00acee
@@ -1002,6 +1002,9 @@ button,input,select,textarea{
 }
  .social-color .telegram a,.social-color-hover .telegram a:hover{
     color:#179cde
+}
+ .social-color .paypal a, .social-color-hover .paypal a:hover{
+    color:#0070ba
 }
  .social-color .steam a,.social-color-hover .steam a:hover{
     color:#112c5b
@@ -2862,10 +2865,10 @@ color:#fff;
  .show-hidden .show-hid a:before{
     content:'\f068'
 }
- .storyify-pro-share-links li.reddit,.storyify-pro-share-links li.linkedin,.storyify-pro-share-links li.tumblr,.storyify-pro-share-links li.telegram{
+ .storyify-pro-share-links li.reddit,.storyify-pro-share-links li.linkedin,.storyify-pro-share-links li.tumblr,.storyify-pro-share-links li.telegram,.storyify-pro-share-links li.vk{
     display:none
 }
- .show-hidden li.reddit,.show-hidden li.linkedin,.show-hidden li.tumblr,.show-hidden li.telegram{
+ .show-hidden li.reddit,.show-hidden li.linkedin,.show-hidden li.tumblr,.show-hidden li.telegram,.show-hidden li.vk{
     display:inline-block
 }
  .about-author{
@@ -5160,8 +5163,8 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
       <b:if cond='data:view.isHomepage'>
         <script type='application/ld+json'>{&quot;@context&quot;:&quot;http://schema.org&quot;,&quot;@type&quot;:&quot;WebSite&quot;,&quot;name&quot;:&quot;<data:view.title.escaped/>&quot;,&quot;url&quot;:&quot;<data:view.url.canonical/>&quot;,&quot;potentialAction&quot;:{&quot;@type&quot;:&quot;SearchAction&quot;,&quot;target&quot;:&quot;<data:view.url.canonical/>search?q={search_term_string}&quot;,&quot;query-input&quot;:&quot;required name=search_term_string&quot;}}</script>
       </b:if>
-      <!-- Font Awesome Free 5.15.1 -->
-      <b:tag href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/fontawesome.min.css' name='link' rel='stylesheet'/>
+      <!-- Font Awesome Free 5.15.4 -->
+      <b:tag href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css' name='link' rel='stylesheet'/>
       <b:tag cond='data:blog.languageDirection == &quot;rtl&quot;' href='https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&amp;display=swap' name='link' rel='stylesheet'/>
     </b:includable>
     <b:includable id='theme-body-class'>
@@ -5732,8 +5735,9 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
           <li class='whatsapp'><a class='whatsapp btn window-ify' data-height='520' data-width='860' expr:data-url='&quot;https://api.whatsapp.com/send?text=&quot; + data:post.title.jsEscaped + &quot; | &quot; + data:post.url.canonical' href='javascript:;' rel='nofollow' title='WhatsApp'/></li>
           <li class='pinterest-p'><a class='pinterest btn window-ify' data-height='520' data-width='860' expr:data-url='&quot;https://www.pinterest.com/pin/create/button/?url=&quot; + data:post.url.canonical + &quot;&amp;media=&quot; + data:post.featuredImage + &quot;&amp;description=&quot; + data:post.title.jsEscaped' href='javascript:;' rel='nofollow' title='Pinterest'/></li>
           <li class='linkedin'><a class='linkedin btn window-ify' data-height='520' data-width='860' expr:data-url='&quot;https://www.linkedin.com/shareArticle?mini=true&amp;url=&quot; + data:post.url.canonical + &quot;&amp;title=&quot; + data:post.title.jsEscaped' href='javascript:;' rel='nofollow' title='LinkedIn'/></li>
-          <li class='reddit'><a class='reddit btn window-ify' data-height='520' data-width='860' expr:data-url='&quot;https://reddit.com/submit?url=&quot; + data:post.url.canonical + &quot;&amp;title=&quot; + data:post.title.jsEscaped' href='javascript:;' rel='nofollow' title='Reddit'/></li>   
+          <li class='reddit'><a class='reddit btn window-ify' data-height='520' data-width='860' expr:data-url='&quot;https://reddit.com/submit?url=&quot; + data:post.url.canonical + &quot;&amp;title=&quot; + data:post.title.jsEscaped' href='javascript:;' rel='nofollow' title='Reddit'/></li>
           <li class='tumblr'><a class='tumblr btn window-ify' data-height='520' data-width='860' expr:data-url='&quot;https://www.tumblr.com/share/link?url=&quot; + data:post.url.canonical + &quot;&amp;name=&quot; + data:post.title.jsEscaped' href='javascript:;' rel='nofollow' title='Tumblr'/></li>
+          <li class='vk'><a class='vk btn window-ify' data-height='520' data-width='860' expr:data-url='&quot;https://www.vk.com/share.php?url=&quot; + data:post.url.canonical + &quot;&amp;name=&quot; + data:post.title.jsEscaped' href='javascript:;' rel='nofollow' title='VK'/></li>
           <li class='telegram'><a class='telegram btn window-ify' data-height='520' data-width='860' expr:data-url='&quot;https://telegram.me/share/url?url=&quot; + data:post.url.canonical + &quot;&amp;text=&quot; + data:post.title.jsEscaped' href='javascript:;' rel='nofollow' title='Telegram'/></li>
           <li class='email'><a class='email btn window-ify' data-height='500' data-width='520' expr:data-url='&quot;mailto:?subject=&quot; + data:post.title.jsEscaped + &quot;&amp;body=&quot; + data:post.url.canonical' href='javascript:;' rel='nofollow' title='Email'/></li>
           <li class='show-hid'><a class='btn' expr:title='data:messages.showMore' href='javascript:;' rel='nofollow'/></li>
@@ -6173,6 +6177,11 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
   <div id='theme-options' style='display:none'>
     <b:section class='ify-panel' id='ify-panel' maxwidgets='3' name='Theme Options' showaddelement='no'>
       <b:widget id='TextList100' locked='true' title='Facebook SDK' type='TextList' visible='true'>
+        <b:widget-settings>
+          <b:widget-setting name='shownum'/>
+          <b:widget-setting name='sorting'>NONE</b:widget-setting>
+          <b:widget-setting name='item-0'><![CDATA[https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v9.0]]></b:widget-setting>
+        </b:widget-settings>
         <b:includable id='main' var='this'>
       <b:include name='widget-title'/>
       <b:include name='content'/>
@@ -6324,7 +6333,7 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
       <b:section class='header-ads container row-x1' id='header-ads' maxwidgets='1' name='Header ADS' showaddelement='yes'>
         <b:widget id='HTML1' locked='false' title='Ads' type='HTML' visible='true'>
           <b:widget-settings>
-            <b:widget-setting name='content'><![CDATA[<a class="ads-here" href="https://www.templateify.com/">Responsive Advertisement</a>]]></b:widget-setting>
+            <b:widget-setting name='content'><![CDATA[<a class="ads-here" href="#">Responsive Advertisement</a>]]></b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
       <b:include name='html-content'/>
@@ -6357,7 +6366,7 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
         <b:section class='home-ads' cond='data:view.isLayoutMode or (data:view.isHomepage and (data:widgets any w =&gt; w.sectionId == &quot;home-ads&quot;))' id='home-ads' maxwidgets='1' name='Home Ads' showaddelement='yes'>
           <b:widget id='HTML7' locked='false' title='' type='HTML' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'><![CDATA[<a class="ads-here" href="https://www.templateify.com/">Responsive Advertisement</a>]]></b:widget-setting>
+              <b:widget-setting name='content'><![CDATA[<a class="ads-here" href="#">Responsive Advertisement</a>]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
       <b:include name='html-content'/>
@@ -6766,8 +6775,9 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
           <li class='whatsapp'><a class='whatsapp btn window-ify' data-height='520' data-width='860' expr:data-url='&quot;https://api.whatsapp.com/send?text=&quot; + data:post.title.jsEscaped + &quot; | &quot; + data:post.url.canonical' href='javascript:;' rel='nofollow' title='WhatsApp'/></li>
           <li class='pinterest-p'><a class='pinterest btn window-ify' data-height='520' data-width='860' expr:data-url='&quot;https://www.pinterest.com/pin/create/button/?url=&quot; + data:post.url.canonical + &quot;&amp;media=&quot; + data:post.featuredImage + &quot;&amp;description=&quot; + data:post.title.jsEscaped' href='javascript:;' rel='nofollow' title='Pinterest'/></li>
           <li class='linkedin'><a class='linkedin btn window-ify' data-height='520' data-width='860' expr:data-url='&quot;https://www.linkedin.com/shareArticle?mini=true&amp;url=&quot; + data:post.url.canonical + &quot;&amp;title=&quot; + data:post.title.jsEscaped' href='javascript:;' rel='nofollow' title='LinkedIn'/></li>
-          <li class='reddit'><a class='reddit btn window-ify' data-height='520' data-width='860' expr:data-url='&quot;https://reddit.com/submit?url=&quot; + data:post.url.canonical + &quot;&amp;title=&quot; + data:post.title.jsEscaped' href='javascript:;' rel='nofollow' title='Reddit'/></li>   
+          <li class='reddit'><a class='reddit btn window-ify' data-height='520' data-width='860' expr:data-url='&quot;https://reddit.com/submit?url=&quot; + data:post.url.canonical + &quot;&amp;title=&quot; + data:post.title.jsEscaped' href='javascript:;' rel='nofollow' title='Reddit'/></li>
           <li class='tumblr'><a class='tumblr btn window-ify' data-height='520' data-width='860' expr:data-url='&quot;https://www.tumblr.com/share/link?url=&quot; + data:post.url.canonical + &quot;&amp;name=&quot; + data:post.title.jsEscaped' href='javascript:;' rel='nofollow' title='Tumblr'/></li>
+          <li class='vk'><a class='vk btn window-ify' data-height='520' data-width='860' expr:data-url='&quot;https://www.vk.com/share.php?url=&quot; + data:post.url.canonical + &quot;&amp;name=&quot; + data:post.title.jsEscaped' href='javascript:;' rel='nofollow' title='VK'/></li>
           <li class='telegram'><a class='telegram btn window-ify' data-height='520' data-width='860' expr:data-url='&quot;https://telegram.me/share/url?url=&quot; + data:post.url.canonical + &quot;&amp;text=&quot; + data:post.title.jsEscaped' href='javascript:;' rel='nofollow' title='Telegram'/></li>
           <li class='email'><a class='email btn window-ify' data-height='500' data-width='520' expr:data-url='&quot;mailto:?subject=&quot; + data:post.title.jsEscaped + &quot;&amp;body=&quot; + data:post.url.canonical' href='javascript:;' rel='nofollow' title='Email'/></li>
           <li class='show-hid'><a class='btn' expr:title='data:messages.showMore' href='javascript:;' rel='nofollow'/></li>
@@ -6880,7 +6890,7 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
           <b:section cond='data:view.isPost' id='storyify-pro-main-before-ad' maxwidgets='1' name='Post ADS 1' showaddelement='yes'>
             <b:widget id='HTML4' locked='false' title='' type='HTML' visible='true'>
               <b:widget-settings>
-                <b:widget-setting name='content'><![CDATA[<a class="ads-here" href="https://www.templateify.com/">Responsive Advertisement</a>]]></b:widget-setting>
+                <b:widget-setting name='content'><![CDATA[<a class="ads-here" href="#">Responsive Advertisement</a>]]></b:widget-setting>
               </b:widget-settings>
               <b:includable id='main'>
       <b:include name='html-content'/>
@@ -6890,7 +6900,7 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
           <b:section cond='data:view.isPost' id='storyify-pro-main-after-ad' maxwidgets='1' name='Post ADS 2' showaddelement='yes'>
             <b:widget id='HTML6' locked='false' title='' type='HTML' visible='true'>
               <b:widget-settings>
-                <b:widget-setting name='content'><![CDATA[<a class="ads-here" href="https://www.templateify.com/">Responsive Advertisement</a>]]></b:widget-setting>
+                <b:widget-setting name='content'><![CDATA[<a class="ads-here" href="#">Responsive Advertisement</a>]]></b:widget-setting>
               </b:widget-settings>
               <b:includable id='main'>
       <b:include name='html-content'/>
@@ -6911,7 +6921,7 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
         <b:section cond='data:view.isLayoutMode or (data:view.isPost and (data:widgets any w =&gt; w.sectionId == &quot;storyify-pro-post-footer-ads&quot;))' id='storyify-pro-post-footer-ads' maxwidgets='1' name='Post ADS 3' showaddelement='yes'>
           <b:widget id='HTML9' locked='false' title='Travel' type='HTML' visible='true'>
             <b:widget-settings>
-              <b:widget-setting name='content'><![CDATA[<a class="ads-here" href="https://www.templateify.com/">Responsive Advertisement</a>]]></b:widget-setting>
+              <b:widget-setting name='content'><![CDATA[<a class="ads-here" href="#">Responsive Advertisement</a>]]></b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
       <b:include name='html-content'/>
@@ -7201,7 +7211,7 @@ document.addEventListener(&quot;DOMContentLoaded&quot;, initYouTubeVideos);
             </b:widget>
             <b:widget id='HTML2' locked='false' title='Advertisement' type='HTML' visible='true'>
               <b:widget-settings>
-                <b:widget-setting name='content'><![CDATA[<a class="ads-here" href="https://www.templateify.com/">Responsive Advertisement</a>]]></b:widget-setting>
+                <b:widget-setting name='content'><![CDATA[<a class="ads-here" href="#">Responsive Advertisement</a>]]></b:widget-setting>
               </b:widget-settings>
               <b:includable id='main'>
       <b:include name='html-content'/>
@@ -7260,7 +7270,7 @@ document.addEventListener(&quot;DOMContentLoaded&quot;, initYouTubeVideos);
       <b:section class='footer-ads container row-x1' id='footer-ads' maxwidgets='1' name='Footer ADS' showaddelement='yes'>
         <b:widget id='HTML3' locked='false' title='Ads' type='HTML' visible='true'>
           <b:widget-settings>
-            <b:widget-setting name='content'><![CDATA[<a class="ads-here" href="https://www.templateify.com/">Responsive Advertisement</a>]]></b:widget-setting>
+            <b:widget-setting name='content'><![CDATA[<a class="ads-here" href="#">Responsive Advertisement</a>]]></b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
       <b:include name='html-content'/>
@@ -7403,7 +7413,7 @@ document.addEventListener(&quot;DOMContentLoaded&quot;, initYouTubeVideos);
 <!-- Hidden Widgets -->
 <div id='hidden-widgets-wrap' style='display:none'>
   <b:section class='hidden-widgets' deleted='true' id='hidden-widgets' maxwidgets='1' showaddelement='no'>
-    <b:widget id='ContactForm1' locked='true' title='Contact Form' type='ContactForm' visible='true'>
+    <b:widget id='ContactForm1' locked='true' title='Formulario de Contacto' type='ContactForm' visible='true'>
       <b:includable id='main' var='this'>
       <b:include name='widget-title'/>
       <b:include name='content'/>
