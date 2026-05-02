@@ -7110,18 +7110,17 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
             </b:widget>
             <b:widget id='HTML10' locked='false' title='Subscribe Us' type='HTML' visible='true'>
               <b:widget-settings>
-                <b:widget-setting name='content'>&lt;div class=&quot;youtube-player&quot; data-id=&quot;rSbmuqdL640&quot; /&gt;
-&lt;style&gt;
+                <b:widget-setting name='content'><![CDATA[<div class="youtube-player" data-id="rSbmuqdL640" />
+<style>
 .youtube-player {
   position: relative;
-  padding-bottom: 56.25%;
+  padding-bottom: 56.25%; /* 16:9 */
   height: 0;
   overflow: hidden;
   max-width: 100%;
   background: #000;
   margin: 5px;
 }
-
 .youtube-player iframe {
   position: absolute;
   top: 0;
@@ -7131,7 +7130,6 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
   z-index: 100;
   background: transparent;
 }
-
 .youtube-player img {
   object-fit: cover;
   display: block;
@@ -7150,13 +7148,11 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
   -moz-transition: 0.4s all;
   transition: 0.4s all;
 }
-
 .youtube-player img:hover {
   -webkit-filter: brightness(75%);
   -moz-filter: brightness(75%);
   filter: brightness(75%);
 }
-
 .youtube-player .play {
   height: 72px;
   width: 72px;
@@ -7165,45 +7161,42 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
   margin-left: -36px;
   margin-top: -36px;
   position: absolute;
-   background: url(&quot;https://1.bp.blogspot.com/-9WM7CTGFE6w/YEIY4yiXrSI/AAAAAAAAKLA/KQ9KQqUFQ-omzPDInJqiorJHHIVvrSu2QCNcBGAsYHQ/s16000/play-button.png&quot;) no-repeat;
+   background: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgpi_SZQhX-GyX72xGj4OEksKUxzSwfXOpRl73zrAR7PiEPhbohV4smcBh3Wqv3qEBVAd0DsSZWeCDdf-rgnM8laEM3zY4mbdHSYOKLLsVixzwSRz85mo7e7c_7gIeiZ-A-lYvQdmJWXQTozH-DkEvL9Xh9ako9fSMBVSrvp1CwpjOpbf4l2XYodpcXi8Y/s1600/YT_Icono.png") no-repeat;
   cursor: pointer;
 }
-
-&lt;/style&gt;
-&lt;script type=&#39;text/javascript&#39;&gt;
-//&lt;![CDATA[
+</style>
+<script type='text/javascript'>
+//<![CDATA[
 /* Light YouTube Embeds by @labnol */
 /* Web: https://www.labnol.org/ */
-
 function labnolIframe(div) {
-  var iframe = document.createElement(&quot;iframe&quot;);
+  var iframe = document.createElement("iframe");
   iframe.setAttribute(
-    &quot;src&quot;,
-    &quot;https://www.youtube.com/embed/&quot; + div.dataset.id + &quot;?autoplay=1&amp;rel=0&quot;
+    "src",
+    "https://www.youtube.com/embed/" + div.dataset.id + "?autoplay=1&rel=0"
   );
-  iframe.setAttribute(&quot;frameborder&quot;, &quot;0&quot;);
-  iframe.setAttribute(&quot;allowfullscreen&quot;, &quot;1&quot;);
+  iframe.setAttribute("frameborder", "0");
+  iframe.setAttribute("allowfullscreen", "1");
   iframe.setAttribute(
-    &quot;allow&quot;,
-    &quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot;
+    "allow",
+    "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
   );
   div.parentNode.replaceChild(iframe, div);
 }
-
 function initYouTubeVideos() {
-  var playerElements = document.getElementsByClassName(&quot;youtube-player&quot;);
-  for (var n = 0; n &lt; playerElements.length; n++) {
+  var playerElements = document.getElementsByClassName("youtube-player");
+  for (var n = 0; n < playerElements.length; n++) {
     var videoId = playerElements[n].dataset.id;
-    var div = document.createElement(&quot;div&quot;);
-    div.setAttribute(&quot;data-id&quot;, videoId);
-    var thumbNode = document.createElement(&quot;img&quot;);
-    thumbNode.src = &quot;https://i.ytimg.com/vi/ID/hqdefault.jpg&quot;.replace(
-      &quot;ID&quot;,
+    var div = document.createElement("div");
+    div.setAttribute("data-id", videoId);
+    var thumbNode = document.createElement("img");
+    thumbNode.src = "https://i.ytimg.com/vi/ID/hqdefault.jpg".replace(
+      "ID",
       videoId
     );
     div.appendChild(thumbNode);
-    var playButton = document.createElement(&quot;div&quot;);
-    playButton.setAttribute(&quot;class&quot;, &quot;play&quot;);
+    var playButton = document.createElement("div");
+    playButton.setAttribute("class", "play");
     div.appendChild(playButton);
     div.onclick = function () {
       labnolIframe(this);
@@ -7211,11 +7204,9 @@ function initYouTubeVideos() {
     playerElements[n].appendChild(div);
   }
 }
-
-document.addEventListener(&quot;DOMContentLoaded&quot;, initYouTubeVideos);
-
-//]]&gt;
-&lt;/script&gt;&lt;/div&gt;</b:widget-setting>
+document.addEventListener("DOMContentLoaded", initYouTubeVideos);
+//]]]]><![CDATA[>
+</script></div>]]></b:widget-setting>
               </b:widget-settings>
               <b:includable id='main'>
       <b:include name='html-content'/>
