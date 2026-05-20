@@ -1644,7 +1644,7 @@ disqusShortname = "templateiki";
             <li class='email'><a class='email window-piki' data-height='460' data-width='550' expr:data-url='&quot;mailto:?subject=&quot; + data:view.title.jsEscaped + &quot;&amp;body=&quot; + data:view.url.canonical' href='javascript:;' rel='nofollow' title='Email'>Email</a></li>
             </div>
             <div class='copy-section'>
-                <span class='title'>Copy Post Link</span>
+                <span class='title'><data:messages.copy/><data:messages.postLink/></span>
                 <div class='copy-post'>
                <input expr:value='data:blog.url.canonical' id='showlink' readonly='readonly'/><button expr:aria-label='data:messages.copy' expr:title='data:messages.copy'><data:messages.copy/></button>
                     <div class='messageDone' id='messageDone'/>
