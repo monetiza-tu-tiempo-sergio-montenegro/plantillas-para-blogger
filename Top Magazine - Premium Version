@@ -190,7 +190,6 @@ body{background:$(body.background);font:$(body.font);color:#4f4f4f;word-wrap:bre
 #social-top .reddit:before{content:"\f1a1"}
 #social-top .vk:before{content:"\f189"}
 #social-top .wordpress:before{content:"\f19a"}
-#social-top .blogger:before{content:"\f1a7"}
 #social-top .envelope:before{content:"\f0e0"}
 #header-blog{height:90px;position:relative;overflow:hidden;padding:30px 0}
 .header-content{margin:0 auto;overflow:hidden;height:90px}
@@ -393,7 +392,7 @@ to{-webkit-transform:translate3d(0,0,0);transform:translate3d(0,0,0)}
     background: #cd201f;
 }
 .kt-social-buttons-widget li a.social-btn-instagram {
-    background: #405de6;
+    background: #c13584;
 }
 .kt-social-buttons-widget li a.social-btn-twitch {
   background: #6441a5;
