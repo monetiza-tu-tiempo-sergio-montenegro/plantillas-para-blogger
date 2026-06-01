@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!DOCTYPE html>
-<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
-  <head>
+<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
    <!-- [ Meta Tag SEO ] -->
 <include expiration='7d' path='*.css'/>
 <include expiration='7d' path='*.js'/>
@@ -9,7 +9,7 @@
 <include expiration='3d' path='*.jpeg'/>
 <include expiration='3d' path='*.jpg'/>
 <include expiration='3d' path='*.png'/>
-<meta content='sat, 02 jun 2020 00:00:00 GMT' http-equiv='expires'/>
+<meta content='Tue, 31 Dec 2030 23:59:59 GMT-5' http-equiv='expires'/>
 <meta charset='utf-8'/>
 <meta content='width=device-width, initial-scale=1' name='viewport'/>
 <meta content='blogger' name='generator'/>
@@ -94,9 +94,9 @@
 <meta content='PAGE-APPLICATION-FACEBOOK' property='article:publisher'/>
 <meta content='CODE-APPLICATION-FACEBOOK' property='fb:app_id'/>
 <meta content='CODE-ADMIN-FACEBOOK' property='fb:admins'/>
-<meta content='en_US' property='og:locale'/>
-<meta content='en_GB' property='og:locale:alternate'/>
-<meta content='id_ID' property='og:locale:alternate'/>
+<meta content='es_LA' property='og:locale'/>
+<meta content='es_ES' property='og:locale:alternate'/>
+<meta content='es_PE' property='og:locale:alternate'/>
 <meta content='summary' name='twitter:card'/>
 <meta expr:content='data:blog.pageTitle' name='twitter:title'/>
 <meta content='USER-TWITTER' name='twitter:site'/>
@@ -348,7 +348,7 @@ font-weight: 400;
 .top-bar-social .twitter:before{content:"\f099"}
 .top-bar-social .gplus:before{content:"\f0d5"}
 .top-bar-social .rss:before{content:"\f09e"}
-.top-bar-social .youtube:before{content:"\f167"}
+.top-bar-social .youtube:before{content:"\f16a"}
 .top-bar-social .skype:before{content:"\f17e"}
 .top-bar-social .stumbleupon:before{content:"\f1a4"}
 .top-bar-social .tumblr:before{content:"\f173"}
@@ -363,13 +363,19 @@ font-weight: 400;
 .top-bar-social .pinterest:before{content:"\f0d2"}
 .top-bar-social .delicious:before{content:"\f1a5"}
 .top-bar-social .codepen:before{content:"\f1cb"}
+.top-bar-social .paypal:before{content:"\f1ed"}
+.top-bar-social .whatsapp:before{content:"\f232"}
+.top-bar-social .telegram:before{content:"\f2c6"}
+.top-bar-social .twitch:before{content:"\f1e8"}
+.top-bar-social .reddit:before{content:"\f1a1"}
+.top-bar-social .vk:before{content:"\f189"}
 
-.top-bar-social .bloglovin{background:$maincolor}
-.top-bar-social .facebook{background:#3b5998}
+.top-bar-social .bloglovin{background:$seconddarkcolor}
+.top-bar-social .facebook{background:#1877f2}
 .top-bar-social .twitter{background:#00aced}
 .top-bar-social .gplus{background:#df4b37}
 .top-bar-social .rss{background:#f26522}
-.top-bar-social .youtube{background:#cd201f}
+.top-bar-social .youtube{background:#db4a39}
 .top-bar-social .skype{background:#00aff0}
 .top-bar-social .stumbleupon{background:#eb4924}
 .top-bar-social .tumblr{background:#35465c}
@@ -380,10 +386,16 @@ font-weight: 400;
 .top-bar-social .soundcloud{background:#ff3300}
 .top-bar-social .behance{background:#1769ff}
 .top-bar-social .digg{background:#005be2}
-.top-bar-social .instagram{background:#c13584}
-.top-bar-social .pinterest{background:#bd081c}
+.top-bar-social .instagram{background:linear-gradient(15deg,#ffb13d,#dd277b,#4d5ed4)}
+.top-bar-social .pinterest{background:#ca2127}
 .top-bar-social .delicious{background:#3399ff}
 .top-bar-social .codepen{background:#47cf73}
+.top-bar-social .paypal{background:#003087}
+.top-bar-social .whatsapp{background:#3fbb50}
+.top-bar-social .telegram{background:#0088cc}
+.top-bar-social .twitch{background:#6441a5}
+.top-bar-social .reddit{background:#ff4500}
+.top-bar-social .vk{background:#4a76a8}
 .top-bar-social ul#social a:hover {
 opacity: 0.8;
 }
@@ -2739,21 +2751,21 @@ padding: 0;
     text-align: center;
 }
 .ty-post-share li.ty-twitter a {
-    background: #4b96d7;
+    background: #00acee;
 }
 .ty-post-share li.ty-facebook a {
-    background: #2a3e8c;
+    background: #1877f2;
 }
 .ty-post-share li.ty-pinterest a {
-    background: #ae0000;
+    background: #ca2127;
 }
-.ty-post-share li.ty-whatsapp{display:none;}
 .ty-post-share li.ty-whatsapp a {
-    background: #25d266;
+    background: #3fbb50;
 }
-@media only screen and (max-width: 768px) {
-.ty-post-share li.ty-whatsapp{display:inline-block;}
-.ty-post-share li.ty-comment{display:none;}
+@media only screen and (max-width: 768px)
+}
+.ty-post-share li.ty-whatsapp {
+    display: inline-block;
 }
 .ty-post-share a {
     display: block;
@@ -3293,17 +3305,18 @@ font-weight: 400;
 -moz-osx-font-smoothing: grayscale;
 }
 .bottom-bar-social .bloglovin:before{content:"\f004"}
-.bottom-bar-social .facebook:before{content:"\f09a"}
+.bottom-bar-social .facebook:before{content:"\f230"}
 .bottom-bar-social .twitter:before{content:"\f099"}
 .bottom-bar-social .gplus:before{content:"\f0d5"}
 .bottom-bar-social .rss:before{content:"\f09e"}
-.bottom-bar-social .youtube:before{content:"\f167"}
+.bottom-bar-social .youtube:before{content:"\f16a"}
 .bottom-bar-social .skype:before{content:"\f17e"}
 .bottom-bar-social .stumbleupon:before{content:"\f1a4"}
 .bottom-bar-social .tumblr:before{content:"\f173"}
+.bottom-bar-social .vk:before{content:"\f189"}
 .bottom-bar-social .vine:before{content:"\f1ca"}
 .bottom-bar-social .stack-overflow:before{content:"\f16c"}
-.bottom-bar-social .linkedin:before{content:"\f0e1"}
+.bottom-bar-social .linkedin:before{content:"\f08c"}
 .bottom-bar-social .dribbble:before{content:"\f17d"}
 .bottom-bar-social .soundcloud:before{content:"\f1be"}
 .bottom-bar-social .behance:before{content:"\f1b4"}
@@ -3312,6 +3325,11 @@ font-weight: 400;
 .bottom-bar-social .pinterest:before{content:"\f0d2"}
 .bottom-bar-social .delicious:before{content:"\f1a5"}
 .bottom-bar-social .codepen:before{content:"\f1cb"}
+.bottom-bar-social .paypal:before{content:"\f1ed"}
+.bottom-bar-social .whatsapp:before{content:"\f232"}
+.bottom-bar-social .telegram:before{content:"\f2c6"}
+.bottom-bar-social .twitch:before{content:"\f1e8"}
+.bottom-bar-social .reddit:before{content:"\f1a1"}
 .bottom-bar-social ul#social a:hover {
 color: $maincolor;
 opacity: 1;
@@ -3411,29 +3429,68 @@ float: none;
     font-size: 12px;
     font-weight: 400;
 }
+.item-social.telegram .item-icon {
+    background-color: #0088cc;
+}
+.item-social.whatsapp .item-icon {
+    background-color: #3fbb50;
+}
+.item-social.linkedin .item-icon {
+    background-color: #0077b5;
+}
 .item-social.facebook .item-icon {
-background-color: #5271b3
+background-color: #1877f2
 }
 .item-social.twitter .item-icon {
-background-color: #49aff8
+background-color: #00acee
 }
 .item-social.gplus .item-icon {
 background-color: #cb2027
 }
 .item-social.rss .item-icon {
-background-color: #FFC200
+background-color: #f26522
 }
 .item-social.youtube .item-icon {
-background-color: #eb1a21
+background-color:#db4a39
 }
 .item-social.dribbble .item-icon {
 background-color: #ea4c89
 }
 .item-social.instagram .item-icon {
-background-color: #4E729A
+background:linear-gradient(15deg,#ffb13d,#dd277b,#4d5ed4)
+}
+.item-social.paypal .item-icon {
+    background-color: #003087
 }
 .item-social.pinterest .item-icon {
-background-color: #cb2027
+background-color: #ca2127
+}
+.item-social.bloglovin .item-icon {
+background-color: $seconddarkcolor
+}
+.item-social.twitch .item-icon {
+    background-color: #6441a5;
+}
+.item-social.tumblr .item-icon {
+    background-color: #35465c;
+}
+.item-social.vk .item-icon {
+    background-color: #4a76a8;
+}
+.item-social.reddit .item-icon {
+    background-color: #ff4500;
+}
+.item-social.paypal .item-icon:before {
+    content: "\f1ed";
+}
+.item-social.telegram .item-icon:before {
+    content: "\f2c6";
+}
+.item-social.whatsapp .item-icon:before {
+    content: "\f232";
+}
+.item-social.linkedin .item-icon:before {
+    content: "\f0e1";
 }
 .item-social.facebook .item-icon:before {
 content: "\f09a"
@@ -3458,6 +3515,21 @@ content: "\f17d"
 }
 .item-social.pinterest .item-icon:before {
 content: "\f0d2"
+}
+.item-social.bloglovin .item-icon:before {
+content: "\f004"
+}
+.item-social.twitch .item-icon:before {
+    content: "\f1e8";
+}
+.item-social.tumblr .item-icon:before {
+    content: "\f173";
+}
+.item-social.vk .item-icon:before {
+    content: "\f189";
+}
+.item-social.reddit .item-icon:before {
+    content: "\f1a1";
 }
 .social-counter ul li:hover .item-icon {
 background-color: #202020;
@@ -4387,9 +4459,8 @@ function loadCSS(e, t, n) {
         i.media = n || "all"
     })
 }
-loadCSS("//fonts.googleapis.com/css?family=Poppins:400,500,600,700|Open+Sans:400,600,700,400italic|Black+Ops+One");
-loadCSS("//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
-
+loadCSS("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700|Open+Sans:400,600,700,400italic|Black+Ops+One");
+loadCSS("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 //]]>
 </script>
 <b:if cond='data:blog.pageType == &quot;static_page&quot;'>
@@ -4543,7 +4614,7 @@ a.News:before {content:&quot;\f1ea&quot;}</b:widget-setting>
             <div class='widget-content'>
               <ul id='social'>
                 <b:loop values='data:links' var='link'>
-                  <li><a expr:class='data:link.name' expr:href='data:link.target' expr:title='data:link.name'/></li>
+                <li><a expr:href='data:link.target' target='_blank'><data:link.name/></a></li>
                 </b:loop>
               </ul>
             </div>
@@ -4756,8 +4827,8 @@ a.News:before {content:&quot;\f1ea&quot;}</b:widget-setting>
             </b:widget-settings>
             <b:includable id='main'>
             <div class='widget-content'>
-              <ul itemscope='' itemtype='http://schema.org/SiteNavigationElement'> 
-                <li><a expr:href='data:blog.homepageUrl'>Home</a></li>
+            <ul itemscope='' itemtype='http://schema.org/SiteNavigationElement'>
+            <li><a expr:href='data:blog.homepageUrl'><data:messages.home/></a></li>  
                 <b:loop values='data:links' var='link'>
                   <li itemprop='name'><a expr:href='data:link.target' itemprop='url'><data:link.name/></a></li>
                 </b:loop>
@@ -4773,7 +4844,7 @@ a.News:before {content:&quot;\f1ea&quot;}</b:widget-setting>
 </span>
 <div class='search-form' style='display: none;'>
 <form action='/search' id='searchform' method='get'>
-<input name='q' placeholder='Search' type='text' vk_18d09='subscribed' vk_1ad21='subscribed' vk_1b6ba='subscribed'/>
+<input expr:placeholder='data:messages.search' name='q' type='text' vk_18d09='subscribed' vk_1ad21='subscribed' vk_1b6ba='subscribed'/>
 </form>
 </div></div>
   </div>
@@ -5656,7 +5727,7 @@ a.News:before {content:&quot;\f1ea&quot;}</b:widget-setting>
     <div class='post-header'>
  <b:if cond='data:blog.pageType == &quot;item&quot;'>
  <div class='breadcrumbs' xmlns:v='http://rdf.data-vocabulary.org/#'>
-    <span typeof='v:Breadcrumb'><a class='bhome' expr:href='data:blog.homepageUrl' property='v:title' rel='v:url'>Home</a></span><i class='fa fa-times'/>
+    <span typeof='v:Breadcrumb'><a class='bhome' expr:href='data:blog.homepageUrl' property='v:title' rel='v:url'><data:messages.home/></a></span><i class='fa fa-times'/>
     <b:loop values='data:posts' var='post'>
       <b:if cond='data:post.labels'>
       <b:loop values='data:post.labels' var='label'>
@@ -5792,7 +5863,6 @@ a.News:before {content:&quot;\f1ea&quot;}</b:widget-setting>
 
     <b:if cond='data:post.hasJumpLink'>
       <div class='jump-link'>
-        <a expr:href='data:post.url + &quot;#more&quot;' expr:title='data:post.title'><data:post.jumpText/></a>
       </div>
     </b:if>
 
@@ -5813,34 +5883,29 @@ a.News:before {content:&quot;\f1ea&quot;}</b:widget-setting>
  <div style='clear: both;'/>
 <div class='ty-post-share'>
 
+<ul class='ty-post-share-list'>
 	
-	<ul class='ty-post-share-list'>
-	
-		<li class='ty-twitter'>
-			<a expr:data-text='data:post.title' expr:data-url='data:post.url' href='http://twitter.com/share' rel='nofollow' target='_blank'>
-				<span class='fa fa-twitter'/>Tweet			</a>
-		</li>
+<li class='ty-twitter'>
+    <a expr:href='&quot;https://www.x.com/intent/tweet?via=amantesliter289&amp;url=&quot; + data:post.url + &quot;&amp;text=&quot; + data:post.title' rel='nofollow' target='_blank'>
+       <span class='fa fa-twitter'/>Twitter			</a>
+</li>
 
-		<li class='ty-facebook'>
-			<a expr:href='&quot;http://www.facebook.com/sharer.php?u=&quot; + data:post.url + &quot;&amp;title=&quot; + data:post.title' rel='nofollow' target='_blank'>
-				<span class='fa fa-facebook'/>Share			</a>
-		</li>
+<li class='ty-facebook'>
+    <a expr:href='&quot;https://www.facebook.com/sharer.php?u=&quot; + data:post.url' rel='nofollow' target='_blank'>
+       <span class='fa fa-facebook'/>Facebook			</a>
+</li>
 
-		<li class='ty-pinterest'>
-			<a href='javascript:void((function()%7Bvar%20e=document.createElement(&apos;script&apos;);e.setAttribute(&apos;type&apos;,&apos;text/javascript&apos;);e.setAttribute(&apos;charset&apos;,&apos;UTF-8&apos;);e.setAttribute(&apos;src&apos;,&apos;http://assets.pinterest.com/js/pinmarklet.js?r=&apos;+Math.random()*99999999);document.body.appendChild(e)%7D)());' rel='nofollow' target='_blank'>
-				<span class='fa fa-pinterest'/>Pin it			</a>
-		</li>
+<li class='ty-pinterest'>
+    <a expr:href='&quot;https://www.pinterest.com/pin/create/button/?url=&quot; + data:post.url + &quot;&amp;media=&quot; + data:post.featuredImage + &quot;&amp;description=&quot; + data:post.title' rel='nofollow' target='_blank'>
+       <span class='fa fa-pinterest'/>Pinterest			</a>
+</li>
+      
 <li class='ty-whatsapp'>
-			<whatsapp expr:href='data:post.url' expr:text='data:post.title'/>
-<a class='wat-art' expr:href='&quot;whatsapp://send?text=&quot; + data:post.title + &quot; &gt;&gt; &quot; + data:post.url' rel='nofollow' target='_blank'><span class='fa fa-whatsapp'/>Whatsapp</a>
+    <a class='wat-art' expr:href='&quot;https://api.whatsapp.com/send?text=&quot; + data:post.title + &quot; | &quot; + data:post.url' rel='nofollow' target='_blank'>
+       <span class='fa fa-whatsapp'/>WhatsApp			</a>
+</li>
 
-		</li>
-		<li class='ty-comment'>
-			<a href='#put-your-comment' rel='nofollow' title='Comment'>
-				<span class='fa fa-commenting-o'/>Comment			</a>
-		</li>
-
-	</ul>
+</ul>
 
 </div>
       <div style='clear:both'/> 
@@ -6448,7 +6513,7 @@ letter-spacing:1.5px;
                 <div data-tab='blogger'><div class='blogger-tab'/></div>
               </div>
             </b:if>
-            <div id='fb-root'/><script>(function(d, s, id){var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = &quot;//connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.0&quot;;fjs.parentNode.insertBefore(js, fjs);}(document, &#39;script&#39;, &#39;facebook-jssdk&#39;));</script>&lt;script&gt;$(&quot;.facebook-tab&quot;).append(&quot;&lt;div class=&#39;fb-comments&#39; data-href=&#39;<data:blog.canonicalUrl/>&#39; data-width=&#39;100%&#39; data-numposts=&#39;5&#39; data-colorscheme=&#39;light&#39;&gt;&lt;/div&gt;&quot;);&lt;/script&gt;
+            <div id='fb-root'/><script>(function(d, s, id){var js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return;js = d.createElement(s); js.id = id;js.src = &quot;//connect.facebook.net/es_LA/sdk.js#xfbml=1&amp;version=v2.0&quot;;fjs.parentNode.insertBefore(js, fjs);}(document, &#39;script&#39;, &#39;facebook-jssdk&#39;));</script>&lt;script&gt;$(&quot;.facebook-tab&quot;).append(&quot;&lt;div class=&#39;fb-comments&#39; data-href=&#39;<data:blog.canonicalUrl/>&#39; data-width=&#39;100%&#39; data-numposts=&#39;5&#39; data-colorscheme=&#39;light&#39;&gt;&lt;/div&gt;&quot;);&lt;/script&gt;
          </div>  </b:if>
         </b:includable>
      </b:widget>
@@ -6597,7 +6662,7 @@ letter-spacing:1.5px;
             <div class='widget-content'>
               <ul id='social'>
                 <b:loop values='data:links' var='link'>
-                  <li expr:class='&quot;item-social &quot; + data:link.name'><a expr:href='data:link.target'> <i class='item-icon fa'/><div class='hide-count'><data:link.name/></div><span class='item-text'>Followers</span> </a></li>
+            <li expr:class='&quot;item-social &quot; + data:link.name'><a expr:href='data:link.target' target='_blank'> <i class='item-icon fa'/><div class='hide-count'><data:link.name/></div><span class='item-text'>Followers</span> </a></li>
                 </b:loop>
               </ul>
             </div>
@@ -6639,7 +6704,7 @@ letter-spacing:1.5px;
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
-  js.src = &quot;//connect.facebook.net/en_US/sdk.js#xfbml=1&amp;version=v2.3&amp;appId=1395743857335531&quot;;
+  js.src = &quot;//connect.facebook.net/es_LA/sdk.js#xfbml=1&amp;version=v2.3&amp;appId=1395743857335531&quot;;
   fjs.parentNode.insertBefore(js, fjs);
 }(document, &#39;script&#39;, &#39;facebook-jssdk&#39;));&lt;/script&gt;
 &lt;div class=&quot;fb-page&quot; data-href=&quot;https://www.facebook.com/templatesyard&quot; data-width=&quot;340&quot; data-height=&quot;230&quot; data-hide-cover=&quot;false&quot; data-show-facepile=&quot;false&quot; data-show-posts=&quot;false&quot;&gt;&lt;div class=&quot;fb-xfbml-parse-ignore&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/center&gt;</b:widget-setting>
@@ -6967,41 +7032,41 @@ letter-spacing:1.5px;
    </b:widget>
    <b:widget id='HTML6' locked='false' title='Connect With us' type='HTML' version='1'>
      <b:widget-settings>
-       <b:widget-setting name='content'>&lt;p style=&quot;
-    margin-bottom: 10px;
-&quot;&gt;Over 600,000+ Readers Get fresh content from FastBlog&lt;/p&gt;
- &lt;ul class=&quot;social-icons icon-circle list-unstyled list-inline&quot;&gt; 
-     
-      
+       <b:widget-setting name='content'><![CDATA[<p style="
+      margin-bottom: 10px;
+  ">Over 600,000+ Readers Get fresh content from FastBlog</p>
+   <ul class="social-icons icon-circle list-unstyled list-inline"> 
        
-       &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-dribbble&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; 
-       &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-dropbox&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; 
-       &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-facebook&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; 
-       
-       &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-flickr&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; 
-       
-       &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-github&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; 
-      
-       &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-google-plus&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; 
-       
-       &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-instagram&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; 
-       &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-linkedin&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; 
-       
-       &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-pinterest&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; 
-      
-       &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-skype&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; 
-  
-       &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-tumblr&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+        
+         
+         <li> <a href="#" target="_blank"><i class="fa fa-dribbble"></i></a></li> 
+         <li> <a href="#" target="_blank"><i class="fa fa-dropbox"></i></a></li> 
+         <li> <a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li> 
+         
+         <li> <a href="#" target="_blank"><i class="fa fa-flickr"></i></a></li> 
+         
+         <li> <a href="#" target="_blank"><i class="fa fa-github"></i></a></li> 
+        
+         <li> <a href="#" target="_blank"><i class="fa fa-google-plus"></i></a></li> 
+         
+         <li> <a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li> 
+         <li> <a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li> 
+         
+         <li> <a href="#" target="_blank"><i class="fa fa-pinterest"></i></a></li> 
+        
+         <li> <a href="#" target="_blank"><i class="fa fa-skype"></i></a></li> 
     
-       &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-twitter&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
-       &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-vimeo-square&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
-       &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-vk&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
-       &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-youtube-play&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
-    &lt;/ul&gt;
-&lt;style&gt;
-.list-unstyled {
- padding-left: 0;
- list-style: none;
+         <li> <a href="#" target="_blank"><i class="fa fa-tumblr"></i></a></li>
+      
+         <li> <a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+         <li> <a href="#" target="_blank"><i class="fa fa-vimeo-square"></i></a></li>
+         <li> <a href="#" target="_blank"><i class="fa fa-vk"></i></a></li>
+         <li> <a href="#" target="_blank"><i class="fa fa-youtube-play"></i></a></li>
+      </ul>
+  <style>
+  .list-unstyled {
+   padding-left: 0;
+   list-style: none;
 }
 .list-inline li {
      display: inline-block;
@@ -7010,7 +7075,6 @@ letter-spacing:1.5px;
     margin-bottom: 5px;
 }
 /*---- Genral classes end -------*/
-
 /*Change icons size here*/
 .social-icons .fa {
  font-size: 1.8em;
@@ -7029,7 +7093,6 @@ letter-spacing:1.5px;
  -o-transition: all 0.3s ease-in-out;
  transition: all 0.3s ease-in-out;
 }
-
 .social-icons.icon-circle .fa{ 
  border-radius: 50%;
 }
@@ -7047,44 +7110,50 @@ letter-spacing:1.5px;
 .social-icons .fa-css3{background-color:#1572B7;} 
 .social-icons .fa-dribbble{background-color:#F46899;}  
 .social-icons .fa-dropbox{background-color:#018BD3;}
-.social-icons .fa-facebook,.social-icons .fa-facebook-square{background-color:#3C599F;}  
+.social-icons .fa-facebook,.social-icons .fa-facebook-square{background-color:#1877f2;}  
 .social-icons .fa-flickr{background-color:#FF0084;}
 .social-icons .fa-foursquare{background-color:#0086BE;}
 .social-icons .fa-github,.social-icons .fa-github-alt,.social-icons .fa-github-square{background-color:#070709;} 
 .social-icons .fa-google-plus,.social-icons .fa-google-plus-square{background-color:#CF3D2E;} 
 .social-icons .fa-html5{background-color:#E54D26;}
-.social-icons .fa-instagram{background-color:#A1755C;}
+.social-icons .fa-instagram{background:linear-gradient(15deg,#ffb13d,#dd277b,#4d5ed4)}
 .social-icons .fa-linkedin,.social-icons .fa-linkedin-square{background-color:#0085AE;} 
 .social-icons .fa-linux{background-color:#FBC002;color:#333;}
 .social-icons .fa-maxcdn{background-color:#F6AE1C;}
 .social-icons .fa-pagelines{background-color:#241E20;color:#3984EA;}
-.social-icons .fa-pinterest,.social-icons .fa-pinterest-square{background-color:#CC2127;} 
+.social-icons .fa-pinterest,.social-icons .fa-pinterest-square{background-color:#ca2127;} 
 .social-icons .fa-renren{background-color:#025DAC;}
 .social-icons .fa-skype{background-color:#01AEF2;}
 .social-icons .fa-stack-exchange{background-color:#245590;}
 .social-icons .fa-stack-overflow{background-color:#FF7300;}
 .social-icons .fa-trello{background-color:#265A7F;}
 .social-icons .fa-tumblr,.social-icons .fa-tumblr-square{background-color:#314E6C;} 
-.social-icons .fa-twitter,.social-icons .fa-twitter-square{background-color:#32CCFE;} 
+.social-icons .fa-twitter,.social-icons .fa-twitter-square{background-color:#00acee;} 
 .social-icons .fa-vimeo-square{background-color:#229ACC;}
 .social-icons .fa-vk{background-color:#375474;}
 .social-icons .fa-weibo{background-color:#D72B2B;}
 .social-icons .fa-windows{background-color:#12B6F3;}
 .social-icons .fa-xing,.social-icons .fa-xing-square{background-color:#00555C;} 
-.social-icons .fa-youtube,.social-icons .fa-youtube-play,.social-icons .fa-youtube-square{background-color:#C52F30;}
-&lt;/style&gt;</b:widget-setting>
+.social-icons .fa-youtube,.social-icons .fa-youtube-play,.social-icons .fa-youtube-square{background-color:#db4a39;}
+.social-icons .fa-paypal, .social-icons .fa-paypal-square {background-color: #003087;}
+.social-icons .fa-whatsapp, .social-icons .fa-whatsapp-square {background-color: #3fbb50;}
+.social-icons .fa-telegram, .social-icons .fa-telegram-square {background-color: #0088CC;}
+.social-icons .fa-bloglovin, .social-icons .fa-bloglovin-square {background-color:#d52c1f;}
+.social-icons .fa-twitch, .social-icons .fa-twitch-square{background-color:#6441a5;}
+.social-icons .fa-reddit, .social-icons .fa-reddit-square{background-color:#ff4500;}
+</style>]]></b:widget-setting>
      </b:widget-settings>
      <b:includable id='main'>
-  <!-- only display title if it's non-empty -->
-  <b:if cond='data:title != &quot;&quot;'>
-    <h2 class='title'><data:title/></h2>
-  </b:if>
-  <div class='widget-content'>
-    <data:content/>
-  </div>
+     <!-- only display title if it's non-empty -->
+     <b:if cond='data:title != &quot;&quot;'>
+       <h2 class='title'><data:title/></h2>
+     </b:if>
+     <div class='widget-content'>
+       <data:content/>
+     </div>
 
-  <!--b:include name='quickedit'/-->
-</b:includable>
+     <!--b:include name='quickedit'/-->
+   </b:includable>
    </b:widget>
  </b:section> 
 </div>
@@ -7114,7 +7183,7 @@ letter-spacing:1.5px;
 <b:section class='lowerbar ty-trigger' id='Footer widget(3)' preferred='yes'>
    <b:widget id='HTML9' locked='false' title='About Me' type='HTML'>
      <b:widget-settings>
-       <b:widget-setting name='content'>&lt;style&gt;.avatar {
+       <b:widget-setting name='content'><![CDATA[<style>.avatar {
     float: left;
 }
 .avatar-85 {
@@ -7152,26 +7221,48 @@ line-height: 42px;
 -moz-osx-font-smoothing: grayscale;
 }
 .icons-social .facebook:before {
-content: &quot;\f09a&quot;;
+content: "\f230";
 }
 .icons-social .twitter:before {
-content: &quot;\f099&quot;;
+content: "\f099";
 }
 .icons-social .gplus:before {
-content: &quot;\f0d5&quot;;
+content: "\f0d5";
 }
 .icons-social .linkedin:before {
-content: &quot;\f0e1&quot;;
+content: "\f08c";
 }
 .icons-social .instagram:before {
-content: &quot;\f16d&quot;;
+content: "\f16d";
 }
 .icons-social .pinterest:before {
-content: &quot;\f0d2&quot;;
+content: "\f0d2";
 }
-&lt;/style&gt;&lt;p&gt;&lt;img alt=&quot;author&quot; src=&quot;https://4.bp.blogspot.com/-7pWJpJ09ct0/VnpUJoqNvKI/AAAAAAAAANw/2KR6NOt6GnE/s90-c/captain_jack_sparrow___vector.png&quot; srcset=&quot;https://4.bp.blogspot.com/-7pWJpJ09ct0/VnpUJoqNvKI/AAAAAAAAANw/2KR6NOt6GnE/s90-c/captain_jack_sparrow___vector.png&quot; class=&quot;avatar avatar-85 photo&quot; height=&quot;85&quot; width=&quot;85&quot; /&gt;Hello, my name is Jack Sparrow. I&#39;m a 50 year old self-employed Pirate from the Caribbean. &lt;br /&gt;&lt;a href=&quot;#&quot; style=&quot;
-    color: #0288d1;
-&quot;&gt;Learn More &#8594;&lt;/a&gt;&lt;/p&gt;</b:widget-setting>
+.icons-social .youtube:before {
+  content: "\f16a";  
+}
+.icons-social .paypal:before {
+  content: "\f1ed";
+}
+.icons-social .whatsapp:before {
+  content: "\f232";  
+}
+.icons-social .telegram:before {
+  content: "\f2c6";  
+}
+.icons-social .twitch:before {
+  content: "\f1e8";
+}
+.icons-social .tumblr:before {
+  content: "\f173";
+}
+.icons-social .vk .item-icon:before {
+    content: "\f189";
+}
+.icons-social .bloglovin:before {
+  content: "\f004";  
+}
+</style><p><img alt="author" src="https://4.bp.blogspot.com/-7pWJpJ09ct0/VnpUJoqNvKI/AAAAAAAAANw/2KR6NOt6GnE/s90-c/captain_jack_sparrow___vector.png" srcset="https://4.bp.blogspot.com/-7pWJpJ09ct0/VnpUJoqNvKI/AAAAAAAAANw/2KR6NOt6GnE/s90-c/captain_jack_sparrow___vector.png" class="avatar avatar-85 photo" height="85" width="85" />Hello, my name is Jack Sparrow. I'm a 50 year old self-employed Pirate from the Caribbean. <br /><a href="#" target="_blank" style="color: #0288d1;">Learn More →</a></p>]]></b:widget-setting>
      </b:widget-settings>
      <b:includable id='main'>
   <!-- only display title if it's non-empty -->
@@ -7295,7 +7386,7 @@ content: &quot;\f0d2&quot;;
             <div class='widget-content'>
               <ul id='social'>
                 <b:loop values='data:links' var='link'>
-                  <li><a expr:class='data:link.name' expr:href='data:link.target' expr:title='data:link.name'/></li>
+                <li><a expr:class='data:link.name' expr:href='data:link.target' expr:title='data:link.name' target='_blank'/></li>
                 </b:loop>
               </ul>
             </div>
