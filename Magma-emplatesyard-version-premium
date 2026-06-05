@@ -5813,7 +5813,7 @@ a.News:before {content:&quot;\f1ea&quot;}</b:widget-setting>
 <span class='post-summary' expr:data-url='data:post.url.https'/>
 </div>
                       <div style='clear: both;'/>
-<a class='read-more anchor-hover' expr:href='data:post.url'>Read More</a>
+<a class='read-more anchor-hover' expr:href='data:post.url'><data:messages.readMore/></a>
                       </div>
             <b:else/>
        <div class='post-body entry-content' expr:id='&quot;post-body-&quot; + data:post.id' itemprop='articleBody'>
@@ -5854,7 +5854,7 @@ a.News:before {content:&quot;\f1ea&quot;}</b:widget-setting>
 <ul class='ty-post-share-list'>
 	
 <li class='ty-twitter'>
-    <a expr:href='&quot;https://www.x.com/intent/tweet?via=amantesliter289&amp;url=&quot; + data:post.url + &quot;&amp;text=&quot; + data:post.title' rel='nofollow' target='_blank'>
+    <a expr:href='&quot;https://www.x.com/intent/tweet?via=LiveBlogger1&amp;url=&quot; + data:post.url + &quot;&amp;text=&quot; + data:post.title' rel='nofollow' target='_blank'>
        <span class='fa fa-twitter'/>Twitter			</a>
 </li>
 
@@ -6362,7 +6362,7 @@ letter-spacing:1.5px;
      </b:widget>
      <b:widget id='HTML901' locked='true' title='Comments system' type='HTML' version='1'>
        <b:widget-settings>
-         <b:widget-setting name='content'>[blogger][disqus][facebook]</b:widget-setting>
+         <b:widget-setting name='content'>[blogger]</b:widget-setting>
        </b:widget-settings>
        <b:includable id='main'>
 
