@@ -4431,6 +4431,19 @@ loadCSS("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awes
 
 //]]>
 </script>
+
+<script type='text/javascript'>
+//<![CDATA[
+(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.5';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+//]]>
+</script>
+
 <b:if cond='data:blog.pageType == &quot;static_page&quot;'>
 <script type='text/javascript'>
   /*<![CDATA[*/
@@ -4582,7 +4595,7 @@ a.News:before {content:&quot;\f1ea&quot;}</b:widget-setting>
             <div class='widget-content'>
               <ul id='social'>
                 <b:loop values='data:links' var='link'>
-                  <li><a expr:class='data:link.name' expr:href='data:link.target' expr:title='data:link.name'/></li>
+                <li><a expr:class='data:link.name' expr:href='data:link.target' expr:title='data:link.name' target='_blank'/></li>
                 </b:loop>
               </ul>
             </div>
@@ -6630,7 +6643,7 @@ letter-spacing:1.5px;
             <div class='widget-content'>
               <ul id='social'>
                 <b:loop values='data:links' var='link'>
-                  <li expr:class='&quot;item-social &quot; + data:link.name'><a expr:href='data:link.target'> <i class='item-icon fa'/><div class='hide-count'><data:link.name/></div><span class='item-text'>Followers</span> </a></li>
+                <li expr:class='&quot;item-social &quot; + data:link.name'><a expr:href='data:link.target' target='_blank'> <i class='item-icon fa'/><div class='hide-count'><data:link.name/></div><span class='item-text'>Followers</span> </a></li>
                 </b:loop>
               </ul>
             </div>
@@ -6666,18 +6679,10 @@ letter-spacing:1.5px;
 </b:includable>
       </b:widget>
       <b:widget id='HTML2' locked='false' title='Facebook' type='HTML' version='1'>
-        <b:widget-settings>
-          <b:widget-setting name='content'>&lt;center&gt;&lt;div class=&quot;fb-padding&quot;&gt;&lt;div id=&quot;fb-root&quot;&gt;&lt;/div&gt;
-&lt;script&gt;(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = &quot;//connect.facebook.net/es_LA/sdk.js#xfbml=1&amp;version=v2.3&amp;appId=1395743857335531&quot;;
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, &#39;script&#39;, &#39;facebook-jssdk&#39;));&lt;/script&gt;
-&lt;div class=&quot;fb-page&quot; data-href=&quot;https://www.facebook.com/templatesyard&quot; data-width=&quot;340&quot; data-height=&quot;230&quot; data-hide-cover=&quot;false&quot; data-show-facepile=&quot;false&quot; data-show-posts=&quot;false&quot;&gt;&lt;div class=&quot;fb-xfbml-parse-ignore&quot;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/center&gt;</b:widget-setting>
-        </b:widget-settings>
-        <b:includable id='main'>
+      <b:widget-settings>
+        <b:widget-setting name='content'><![CDATA[<center><div class="fb-page" data-href="https://www.facebook.com/templatesyard/" data-width="360" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"></div></center>]]></b:widget-setting>
+      </b:widget-settings>
+      <b:includable id='main'>
   <!-- only display title if it's non-empty -->
   <b:if cond='data:title != &quot;&quot;'>
     <h2 class='title'><data:title/></h2>
@@ -7005,31 +7010,29 @@ letter-spacing:1.5px;
 &quot;&gt;Over 600,000+ Readers Get fresh content from FastBlog&lt;/p&gt;
  &lt;ul class=&quot;social-icons icon-circle list-unstyled list-inline&quot;&gt; 
      
-      
-       
-       &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-dribbble&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; 
-       &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-dropbox&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; 
-       &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-facebook&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; 
-       
-       &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-flickr&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; 
-       
-       &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-github&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; 
-      
-       &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-google-plus&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; 
-       
-       &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-instagram&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; 
-       &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-linkedin&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; 
-       
-       &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-pinterest&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; 
-      
-       &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-skype&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; 
-  
-       &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-tumblr&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
-    
-       &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-twitter&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
-       &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-vimeo-square&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
-       &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-vk&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
-       &lt;li&gt; &lt;a href=&quot;#&quot;&gt;&lt;i class=&quot;fa fa-youtube-play&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-dribbble&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; 
+&lt;li&gt; &lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-dropbox&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; 
+&lt;li&gt; &lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-facebook&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; 
+
+&lt;li&gt; &lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-flickr&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; 
+
+&lt;li&gt; &lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-github&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; 
+
+&lt;li&gt; &lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-google-plus&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; 
+
+&lt;li&gt; &lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-instagram&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; 
+&lt;li&gt; &lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-linkedin&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; 
+
+&lt;li&gt; &lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-pinterest&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; 
+
+&lt;li&gt; &lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-skype&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt; 
+
+&lt;li&gt; &lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-tumblr&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+
+&lt;li&gt; &lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-twitter&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-vimeo-square&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-vk&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt; &lt;a href=&quot;#&quot; target=&quot;_blank&quot;&gt;&lt;i class=&quot;fa fa-youtube-play&quot;&gt;&lt;/i&gt;&lt;/a&gt;&lt;/li&gt;
     &lt;/ul&gt;
 &lt;style&gt;
 .list-unstyled {
@@ -7347,7 +7350,7 @@ content: "\f0d2";
             <div class='widget-content'>
               <ul id='social'>
                 <b:loop values='data:links' var='link'>
-                  <li><a expr:class='data:link.name' expr:href='data:link.target' expr:title='data:link.name'/></li>
+                <li><a expr:class='data:link.name' expr:href='data:link.target' expr:title='data:link.name' target='_blank'/></li>
                 </b:loop>
               </ul>
             </div>
