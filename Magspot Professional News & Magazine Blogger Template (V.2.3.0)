@@ -9,7 +9,7 @@
 -----------------------------------------------
 Blogger Template Style
 Name:         Magspot
-Version:      2.3.0
+Version:      v.2.9.1 (Mod)
 Author:       Pro Blogger Templates
 Author Url:   https://probloggertemplates.com/
 -----------------------------------------------*/
@@ -158,69 +158,8 @@ Author Url:   https://probloggertemplates.com/
 <Variable name="body.action.font.large" description="Comments Font 2" hideEditor="true" type="font" default="normal 700 14px roboto, Arial, sans-serif !important"  value="normal 700 14px roboto, Arial, sans-serif !important"/>
 -- Customize Options (End) --*/
 
-/*-- Google Fonts --*/
-@font-face{font-family:'Roboto';font-style:italic;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOjCnqEu92Fr1Mu51TjASc3CsTKlA.woff2) format("woff2");unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}
-@font-face{font-family:'Roboto';font-style:italic;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOjCnqEu92Fr1Mu51TjASc-CsTKlA.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
-@font-face{font-family:'Roboto';font-style:italic;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOjCnqEu92Fr1Mu51TjASc2CsTKlA.woff2) format("woff2");unicode-range:U+1F00-1FFF}
-@font-face{font-family:'Roboto';font-style:italic;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOjCnqEu92Fr1Mu51TjASc5CsTKlA.woff2) format("woff2");unicode-range:U+0370-03FF}
-@font-face{font-family:'Roboto';font-style:italic;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOjCnqEu92Fr1Mu51TjASc1CsTKlA.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}
-@font-face{font-family:'Roboto';font-style:italic;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOjCnqEu92Fr1Mu51TjASc0CsTKlA.woff2) format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}
-@font-face{font-family:'Roboto';font-style:italic;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOjCnqEu92Fr1Mu51TjASc6CsQ.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:'Roboto';font-style:italic;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOkCnqEu92Fr1Mu51xFIzIFKw.woff2) format("woff2");unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}
-@font-face{font-family:'Roboto';font-style:italic;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOkCnqEu92Fr1Mu51xMIzIFKw.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
-@font-face{font-family:'Roboto';font-style:italic;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOkCnqEu92Fr1Mu51xEIzIFKw.woff2) format("woff2");unicode-range:U+1F00-1FFF}
-@font-face{font-family:'Roboto';font-style:italic;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOkCnqEu92Fr1Mu51xLIzIFKw.woff2) format("woff2");unicode-range:U+0370-03FF}
-@font-face{font-family:'Roboto';font-style:italic;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOkCnqEu92Fr1Mu51xHIzIFKw.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}
-@font-face{font-family:'Roboto';font-style:italic;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOkCnqEu92Fr1Mu51xGIzIFKw.woff2) format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}
-@font-face{font-family:'Roboto';font-style:italic;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOkCnqEu92Fr1Mu51xIIzI.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:'Roboto';font-style:italic;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOjCnqEu92Fr1Mu51S7ACc3CsTKlA.woff2) format("woff2");unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}
-@font-face{font-family:'Roboto';font-style:italic;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOjCnqEu92Fr1Mu51S7ACc-CsTKlA.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
-@font-face{font-family:'Roboto';font-style:italic;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOjCnqEu92Fr1Mu51S7ACc2CsTKlA.woff2) format("woff2");unicode-range:U+1F00-1FFF}
-@font-face{font-family:'Roboto';font-style:italic;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOjCnqEu92Fr1Mu51S7ACc5CsTKlA.woff2) format("woff2");unicode-range:U+0370-03FF}
-@font-face{font-family:'Roboto';font-style:italic;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOjCnqEu92Fr1Mu51S7ACc1CsTKlA.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}
-@font-face{font-family:'Roboto';font-style:italic;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOjCnqEu92Fr1Mu51S7ACc0CsTKlA.woff2) format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}
-@font-face{font-family:'Roboto';font-style:italic;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOjCnqEu92Fr1Mu51S7ACc6CsQ.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:'Roboto';font-style:italic;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOjCnqEu92Fr1Mu51TzBic3CsTKlA.woff2) format("woff2");unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}
-@font-face{font-family:'Roboto';font-style:italic;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOjCnqEu92Fr1Mu51TzBic-CsTKlA.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
-@font-face{font-family:'Roboto';font-style:italic;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOjCnqEu92Fr1Mu51TzBic2CsTKlA.woff2) format("woff2");unicode-range:U+1F00-1FFF}
-@font-face{font-family:'Roboto';font-style:italic;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOjCnqEu92Fr1Mu51TzBic5CsTKlA.woff2) format("woff2");unicode-range:U+0370-03FF}
-@font-face{font-family:'Roboto';font-style:italic;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOjCnqEu92Fr1Mu51TzBic1CsTKlA.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}
-@font-face{font-family:'Roboto';font-style:italic;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOjCnqEu92Fr1Mu51TzBic0CsTKlA.woff2) format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}
-@font-face{font-family:'Roboto';font-style:italic;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOjCnqEu92Fr1Mu51TzBic6CsQ.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fCRc4EsA.woff2) format("woff2");unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}
-@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fABc4EsA.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
-@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fCBc4EsA.woff2) format("woff2");unicode-range:U+1F00-1FFF}
-@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fBxc4EsA.woff2) format("woff2");unicode-range:U+0370-03FF}
-@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fCxc4EsA.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}
-@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fChc4EsA.woff2) format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}
-@font-face{font-family:'Roboto';font-style:normal;font-weight:300;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmSU5fBBc4.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format("woff2");unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}
-@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
-@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu7mxKOzY.woff2) format("woff2");unicode-range:U+1F00-1FFF}
-@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4WxKOzY.woff2) format("woff2");unicode-range:U+0370-03FF}
-@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu7WxKOzY.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}
-@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}
-@font-face{font-family:'Roboto';font-style:normal;font-weight:400;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOmCnqEu92Fr1Mu4mxK.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fCRc4EsA.woff2) format("woff2");unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}
-@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fABc4EsA.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
-@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fCBc4EsA.woff2) format("woff2");unicode-range:U+1F00-1FFF}
-@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fBxc4EsA.woff2) format("woff2");unicode-range:U+0370-03FF}
-@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fCxc4EsA.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}
-@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fChc4EsA.woff2) format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}
-@font-face{font-family:'Roboto';font-style:normal;font-weight:500;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmEU9fBBc4.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-@font-face{font-family:'Roboto';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfCRc4EsA.woff2) format("woff2");unicode-range:U+0460-052F,U+1C80-1C88,U+20B4,U+2DE0-2DFF,U+A640-A69F,U+FE2E-FE2F}
-@font-face{font-family:'Roboto';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfABc4EsA.woff2) format("woff2");unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}
-@font-face{font-family:'Roboto';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfCBc4EsA.woff2) format("woff2");unicode-range:U+1F00-1FFF}
-@font-face{font-family:'Roboto';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfBxc4EsA.woff2) format("woff2");unicode-range:U+0370-03FF}
-@font-face{font-family:'Roboto';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfCxc4EsA.woff2) format("woff2");unicode-range:U+0102-0103,U+0110-0111,U+0128-0129,U+0168-0169,U+01A0-01A1,U+01AF-01B0,U+1EA0-1EF9,U+20AB}
-@font-face{font-family:'Roboto';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfChc4EsA.woff2) format("woff2");unicode-range:U+0100-024F,U+0259,U+1E00-1EFF,U+2020,U+20A0-20AB,U+20AD-20CF,U+2113,U+2C60-2C7F,U+A720-A7FF}
-@font-face{font-family:'Roboto';font-style:normal;font-weight:700;font-display:swap;src:url(https://fonts.gstatic.com/s/roboto/v27/KFOlCnqEu92Fr1MmWUlfBBc4.woff2) format("woff2");unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD}
-
 /*-- Material Icons Font --*/
 @font-face{font-family:"Material Icons Round";font-display:swap;font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/materialiconsround/v65/LDItaoyNOAY6Uewc665JcIzCKsKc_M9flwmP.woff2) format("woff2")}.mir{font-family:"Material Icons Round";font-weight:400;font-style:normal;font-size:24px;line-height:1;letter-spacing:normal;text-transform:none;display:inline-block;white-space:nowrap;word-wrap:normal;direction:ltr;-webkit-font-feature-settings:liga;-webkit-font-smoothing:antialiased}@font-face{font-family:"PBT Icons";font-display:block;font-style:normal;font-weight:400;src:url(https://fonts.gstatic.com/s/materialiconsround/v65/LDItaoyNOAY6Uewc665JcIzCKsKc_M9flwmP.woff2) format("woff2")}
-
-/*-- Font Awesome 5 Brands 5.15.4 --*/
-@font-face{font-family:"Font Awesome 5 Brands";font-display:swap;font-style:normal;font-weight:400;src:url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-brands-400.eot);src:url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-brands-400.eot?#iefix) format("embedded-opentype"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-brands-400.woff2) format("woff2"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-brands-400.woff) format("woff"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-brands-400.ttf) format("truetype"),url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/webfonts/fa-brands-400.svg#fontawesome) format("svg")}.fab{font-family:"Font Awesome 5 Brands";font-weight:400}
 
 /*-- CSS Variables --*/
 :root{
@@ -406,7 +345,8 @@ a,input,button{transition:all .0s ease}
 .loader{position:relative;width:100%;height:100%;overflow:hidden;display:flex;align-items:center;justify-content:center;margin:0}
 .loader:after{content:'';display:block;width:30px;height:30px;box-sizing:border-box;margin:0;border:2px solid var(--main-color);border-right-color:var(--border-color);border-radius:100%;animation:spinner .65s infinite linear;transform-origin:center}
 @keyframes spinner{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}
-.social a:before{display:block;font-family:'Font Awesome 5 Brands';font-style:normal;font-weight:400}
+.social a:before{display:block;font-family:'Font Awesome 6 Brands';font-style:normal;font-weight:400}
+.social .twitter a:before,.social .x a:before{content:'\e61b'}
 .social .rss a:before,.social .share a:before,.social .email a:before,.social .external-link a:before{content:'\e0e5';font-family:'Material Icons Round'}
 .social .share a:before{content:'\e80d'}
 .social .email a:before{content:'\e0be'}
@@ -416,8 +356,8 @@ a,input,button{transition:all .0s ease}
 .sb-a .apple a,.sb-h .apple a:hover{background-color:#333}
 .sb-a .amazon a,.sb-h .amazon a:hover{background-color:#fe9800}
 .sb-a .microsoft a,.sb-h .microsoft a:hover{background-color:#0067B8}
-.sb-a .facebook a,.sb-a .facebook-f a,.sb-h .facebook a:hover,.sb-h .facebook-f a:hover{background-color:#3b5999}
-.sb-a .twitter a,.sb-h .twitter a:hover{background-color:#00acee}
+.sb-a .facebook a,.sb-a .facebook-f a,.sb-h .facebook a:hover,.sb-h .facebook-f a:hover{background-color:#1877f2}
+.sb-a .twitter a,.sb-a .x-twitter a,.sb-a .x a,.sb-h .twitter a:hover,.sb-h .x-twitter a:hover,.sb-h .x a:hover{background-color:#000}
 .sb-a .youtube a,.sb-h .youtube a:hover{background-color:#f50000}
 .sb-a .instagram a,.sb-h .instagram a:hover{background:linear-gradient(15deg,#ffb13d,#dd277b,#4d5ed4)}
 .sb-a .pinterest a,.sb-a .pinterest-p a,.sb-h .pinterest a:hover,.sb-h .pinterest-p a:hover{background-color:#ca2127}
@@ -448,14 +388,15 @@ a,input,button{transition:all .0s ease}
 .sb-a .tiktok a,.sb-h .tiktok a:hover{background-color:#fe2c55}
 .sb-a .share a,.sb-h .share a:hover{background-color:var(--meta-color)}
 .sb-a .email a,.sb-h .email a:hover{background-color:#888}
+.sb-a .line a,.sb-h .line a:hover{background-color:#07b53b}
 .sb-a .external-link a,.sb-h .external-link a:hover{background-color:var(--title-color)}
 .sc-a .blogger a,.sc-h .blogger a:hover{color:#1a73e8}
 .sc-a .blogger a,.sc-h .blogger a:hover{color:#ff5722}
 .sc-a .apple a,.sc-h .apple a:hover{color:#333}
 .sc-a .amazon a,.sc-h .amazon a:hover{color:#fe9800}
 .sc-a .microsoft a,.sc-h .microsoft a:hover{color:#0067B8}
-.sc-a .facebook a,.sc-a .facebook-f a,.sc-h .facebook a:hover,.sc-h .facebook-f a:hover{color:#3b5999}
-.sc-a .twitter a,.sc-h .twitter a:hover{color:#00acee}
+.sc-a .facebook a,.sc-a .facebook-f a,.sc-h .facebook a:hover,.sc-h .facebook-f a:hover{color:#1877f2}
+.sc-a .twitter a,.sc-a .x-twitter a,.sc-a .x a,.sc-h .twitter a:hover,.sc-h .x-twitter a:hover,.sc-h .x a:hover{color:#000}
 .sc-a .youtube a,.sc-h .youtube a:hover{color:#f50000}
 .sc-a .instagram a,.sc-h .instagram a:hover{color:#dd277b}
 .sc-a .pinterest a,.sc-a .pinterest-p a,.sc-h .pinterest a:hover,.sc-h .pinterest-p a:hover{color:#ca2127}
@@ -486,7 +427,14 @@ a,input,button{transition:all .0s ease}
 .sc-a .tiktok a,.sc-h .tiktok a:hover{color:#fe2c55}
 .sc-a .share a,.sc-h .share a:hover{color:var(--meta-color)}
 .sc-a .email a,.sc-h .email a:hover{color:#888}
+.sc-a .line a,.sc-h .line a:hover{color:#07b53b}
 .sc-a .external-link a,.sc-h .external-link a:hover{color:var(--title-color)}
+.sb-a .threads a,.sb-h .threads a:hover{background-color:#000}
+.sc-a .threads a,.sc-h .threads a:hover{color:#000}
+.sb-a .mastodon a,.sb-h .mastodon a:hover{background-color:#6364ff}
+.sc-a .mastodon a,.sc-h .mastodon a:hover{color:#6364ff}
+.sb-a .bluesky a,.sb-h .bluesky a:hover{background-color:#08f}
+.sc-a .bluesky a,.sc-h .bluesky a:hover{color:#08f}
 #header-wrapper{float:left;width:100%;z-index:50}
 .topbar-wrap{position:relative;float:left;width:100%;height:30px;background-color:var(--topbar-bg);z-index:1}
 .topbar-wrap.has-border{border-bottom:1px solid var(--border-color)}
@@ -845,8 +793,8 @@ blockquote:before{position:absolute;top:0;left:5px;content:'\e244';font-family:'
 .post-body .btn.info:before{content:'\e88e'}
 .post-body .btn.share:before{content:'\e80d'}
 .post-body .btn.contact:before{content:'\e0e1'}
-.post-body .btn.whatsapp:before{content:'\f232';font-family:'Font Awesome 5 Brands';font-style:normal}
-.post-body .btn.paypal:before{content:'\f1ed';font-family:'Font Awesome 5 Brands';font-style:normal}
+.post-body .btn.whatsapp:before{content:'\f232';font-family:'Font Awesome 6 Brands';font-style:normal}
+.post-body .btn.paypal:before{content:'\f1ed';font-family:'Font Awesome 6 Brands';font-style:normal}
 .post-body .btn.gift:before{content:'\e8f6'}
 .post-body a.button:hover{background-color:var(--button-hover-bg);color:var(--button-hover-color)}
 .post-body a.color{color:#fff}
@@ -1389,7 +1337,7 @@ a.ads-here{height:65px}
 <b:template-skin><![CDATA[
 html,body#layout #outer-wrapper,body#layout .row{width:auto;padding:0}
 body#layout{position:relative;width:auto;max-width:100%;background-color:#fff;padding:95px 5px 0;margin:0 0 0 1px;border-width:1px 0 0;border-color:#eceff1}
-body#layout:before{content:'Magspot - v2.3.0';position:absolute;top:0;left:5px;right:5px;height:95px;font-family:Roboto,sans-serif;font-size:23px;color:#263238;line-height:95px;text-align:center}
+body#layout:before{content:'Magspot - v.2.9.1';position:absolute;top:0;left:5px;right:5px;height:95px;font-family:Roboto,sans-serif;font-size:23px;color:#263238;line-height:95px;text-align:center}
 body#layout div.section{display:block;background-color:#eceff1!important;margin:0 5px 10px!important;padding:16px 16px 18px!important;border:0}
 body#layout .no-items.section{display:block}
 body#layout .section h4{font-size:14px;color:#263238;text-transform:uppercase;margin:0}
@@ -1521,7 +1469,8 @@ body#layout #hidden-widgets{display:none!important}
       <b:if cond='data:view.isHomepage'>
         <script type='application/ld+json'>{&quot;@context&quot;:&quot;http://schema.org&quot;,&quot;@type&quot;:&quot;WebSite&quot;,&quot;name&quot;:&quot;<data:view.title.escaped/>&quot;,&quot;url&quot;:&quot;<data:view.url.canonical/>&quot;,&quot;potentialAction&quot;:{&quot;@type&quot;:&quot;SearchAction&quot;,&quot;target&quot;:&quot;<data:view.url.canonical/>search?q={search_term_string}&quot;,&quot;query-input&quot;:&quot;required name=search_term_string&quot;}}</script>
       </b:if>
-      <b:tag href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css' name='link' rel='stylesheet'/>
+      <b:tag href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/brands.min.css' name='link' rel='stylesheet'/>
+      <b:tag href='https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400..700;1,400..700&amp;display=swap' name='link' rel='stylesheet'/>
       <b:tag cond='data:blog.languageDirection == &quot;rtl&quot;' href='https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&amp;display=swap' name='link' rel='stylesheet'/>
     </b:includable>
     <b:includable id='theme-body-class'>
@@ -2911,7 +2860,7 @@ body#layout #hidden-widgets{display:none!important}
               <b:widget-setting name='style.bgcolor'>#ffffff</b:widget-setting>
               <b:widget-setting name='timestampLabel'>-</b:widget-setting>
               <b:widget-setting name='reactionsLabel'/>
-              <b:widget-setting name='showAuthorProfile'>true</b:widget-setting>
+              <b:widget-setting name='showAuthorProfile'>false</b:widget-setting>
               <b:widget-setting name='style.layout'>1x1</b:widget-setting>
               <b:widget-setting name='showLabels'>true</b:widget-setting>
               <b:widget-setting name='showLocation'>false</b:widget-setting>
