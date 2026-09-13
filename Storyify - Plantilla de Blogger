@@ -672,368 +672,377 @@ button,input,select,textarea{
     font-style:normal;
     font-weight:400
 }
- .social .blogger a:before{
+.social .blogger a:before{
     content:'\f37d'
 }
- .social .apple a:before{
+.social .apple a:before{
     content:'\f179'
 }
- .social .amazon a:before{
+.social .amazon a:before{
     content:'\f270'
 }
- .social .microsoft a:before{
+.social .microsoft a:before{
     content:'\f3ca'
 }
- .social .facebook a:before{
+.social .facebook a:before{
     content:'\f09a'
 }
- .social .facebook-f a:before{
+.social .facebook-f a:before{
     content:'\f39e'
 }
- .social .twitter a:before{
+.social .twitter a:before{
     content:'\f099'
 }
- .social .line a:before{
+.social .line a:before{
     content:'\f3c0'
 }
- .social .rss a:before{
+.social .patreon a:before{
+    content:'\f3d9'
+}
+.social .rss a:before{
     content:'\f09e';
     font-family:'Font Awesome 5 Free';
     font-weight:900
 }
- .social .youtube a:before{
+.social .youtube a:before{
     content:'\f167'
 }
- .social .skype a:before{
+.social .skype a:before{
     content:'\f17e'
 }
- .social .stumbleupon a:before{
+.social .stumbleupon a:before{
     content:'\f1a4'
 }
- .social .tumblr a:before{
+.social .tumblr a:before{
     content:'\f173'
 }
- .social .vk a:before{
+.social .vk a:before{
     content:'\f189'
 }
- .social .stack-overflow a:before{
+.social .stack-overflow a:before{
     content:'\f16c'
 }
- .social .github a:before{
+.social .github a:before{
     content:'\f09b'
 }
- .social .linkedin a:before{
+.social .linkedin a:before{
     content:'\f0e1'
 }
- .social .dribbble a:before{
+.social .dribbble a:before{
     content:'\f17d'
 }
- .social .soundcloud a:before{
+.social .soundcloud a:before{
     content:'\f1be'
 }
- .social .behance a:before{
+.social .behance a:before{
     content:'\f1b4'
 }
- .social .digg a:before{
+.social .digg a:before{
     content:'\f1a6'
 }
- .social .instagram a:before{
+.social .instagram a:before{
     content:'\f16d'
 }
- .social .pinterest a:before{
+.social .pinterest a:before{
     content:'\f0d2'
 }
- .social .pinterest-p a:before{
+.social .pinterest-p a:before{
     content:'\f231'
 }
- .social .twitch a:before{
+.social .twitch a:before{
     content:'\f1e8'
 }
- .social .delicious a:before{
+.social .delicious a:before{
     content:'\f1a5'
 }
- .social .codepen a:before{
+.social .codepen a:before{
     content:'\f1cb'
 }
- .social .flipboard a:before{
+.social .flipboard a:before{
     content:'\f44d'
 }
- .social .reddit a:before{
+.social .reddit a:before{
     content:'\f281'
 }
- .social .whatsapp a:before{
+.social .whatsapp a:before{
     content:'\f232'
 }
- .social .messenger a:before{
+.social .messenger a:before{
     content:'\f39f'
 }
- .social .snapchat a:before{
+.social .snapchat a:before{
     content:'\f2ac'
 }
- .social .telegram a:before{
+.social .telegram a:before{
     content:'\f3fe'
 }
- .social .paypal a:before{
+.social .paypal a:before{
     content:'\f1ed'
 }
- .social .steam a:before{
+.social .steam a:before{
     content:'\f3f6'
 }
- .social .discord a:before{
+.social .discord a:before{
     content:'\f392'
 }
- .social .quora a:before{
+.social .quora a:before{
     content:'\f2c4'
 }
- .social .tiktok a:before{
+.social .tiktok a:before{
     content:'\e07b'
 }
- .social .share a:before{
+.social .share a:before{
     content:'\f064';
     font-family:'Font Awesome 5 Free';
     font-weight:900
 }
- .social .email a:before{
+.social .email a:before{
     content:'\f0e0';
     font-family:'Font Awesome 5 Free'
 }
- .social .external-link a:before{
+.social .external-link a:before{
     content:'\f35d';
     font-family:'Font Awesome 5 Free';
     font-weight:900
 }
- .social-bg .blogger a,.social-bg-hover .blogger a:hover{
+.social-bg .blogger a,.social-bg-hover .blogger a:hover{
     background-color:#ff5722
 }
- .social-bg .apple a,.social-bg-hover .apple a:hover{
+.social-bg .apple a,.social-bg-hover .apple a:hover{
     background-color:#333
 }
- .social-bg .amazon a,.social-bg-hover .amazon a:hover{
+.social-bg .amazon a,.social-bg-hover .amazon a:hover{
     background-color:#fe9800
 }
- .social-bg .microsoft a,.social-bg-hover .microsoft a:hover{
+.social-bg .microsoft a,.social-bg-hover .microsoft a:hover{
     background-color:#0067B8
 }
- .social-bg .facebook a,.social-bg .facebook-f a,.social-bg-hover .facebook a:hover,.social-bg-hover .facebook-f a:hover{
+.social-bg .facebook a,.social-bg .facebook-f a,.social-bg-hover .facebook a:hover,.social-bg-hover .facebook-f a:hover{
     background-color:#1877f2
 }
- .social-bg .twitter a,.social-bg-hover .twitter a:hover{
+.social-bg .twitter a,.social-bg-hover .twitter a:hover{
     background-color:#00acee
 }
- .social-bg .line a,.social-bg-hover .line a:hover{
+.social-bg .line a,.social-bg-hover .line a:hover{
     background-color:#00b900
 }
- .social-bg .youtube a,.social-bg-hover .youtube a:hover{
+.social-bg .youtube a,.social-bg-hover .youtube a:hover{
     background-color:#f50000
 }
- .social-bg .instagram a,.social-bg-hover .instagram a:hover{
+.social-bg .instagram a,.social-bg-hover .instagram a:hover{
     background:linear-gradient(15deg,#ffb13d,#dd277b,#4d5ed4)
 }
- .social-bg .pinterest a,.social-bg .pinterest-p a,.social-bg-hover .pinterest a:hover,.social-bg-hover .pinterest-p a:hover{
+.social-bg .pinterest a,.social-bg .pinterest-p a,.social-bg-hover .pinterest a:hover,.social-bg-hover .pinterest-p a:hover{
     background-color:#ca2127
 }
- .social-bg .dribbble a,.social-bg-hover .dribbble a:hover{
+.social-bg .dribbble a,.social-bg-hover .dribbble a:hover{
     background-color:#ea4c89
 }
- .social-bg .linkedin a,.social-bg-hover .linkedin a:hover{
+.social-bg .linkedin a,.social-bg-hover .linkedin a:hover{
     background-color:#0077b5
 }
- .social-bg .tumblr a,.social-bg-hover .tumblr a:hover{
+.social-bg .tumblr a,.social-bg-hover .tumblr a:hover{
     background-color:#365069
 }
- .social-bg .twitch a,.social-bg-hover .twitch a:hover{
+.social-bg .twitch a,.social-bg-hover .twitch a:hover{
     background-color:#6441a5
 }
- .social-bg .rss a,.social-bg-hover .rss a:hover{
+.social-bg .rss a,.social-bg-hover .rss a:hover{
     background-color:#ffc200
 }
- .social-bg .skype a,.social-bg-hover .skype a:hover{
+.social-bg .skype a,.social-bg-hover .skype a:hover{
     background-color:#00aff0
 }
- .social-bg .stumbleupon a,.social-bg-hover .stumbleupon a:hover{
+.social-bg .stumbleupon a,.social-bg-hover .stumbleupon a:hover{
     background-color:#eb4823
 }
- .social-bg .vk a,.social-bg-hover .vk a:hover{
+.social-bg .vk a,.social-bg-hover .vk a:hover{
     background-color:#4a76a8
 }
- .social-bg .stack-overflow a,.social-bg-hover .stack-overflow a:hover{
+.social-bg .stack-overflow a,.social-bg-hover .stack-overflow a:hover{
     background-color:#f48024
 }
- .social-bg .github a,.social-bg-hover .github a:hover{
+.social-bg .github a,.social-bg-hover .github a:hover{
     background-color:#24292e
 }
- .social-bg .soundcloud a,.social-bg-hover .soundcloud a:hover{
+.social-bg .soundcloud a,.social-bg-hover .soundcloud a:hover{
     background:linear-gradient(#ff7400,#ff3400)
 }
- .social-bg .behance a,.social-bg-hover .behance a:hover{
+.social-bg .behance a,.social-bg-hover .behance a:hover{
     background-color:#191919
 }
- .social-bg .digg a,.social-bg-hover .digg a:hover{
+.social-bg .digg a,.social-bg-hover .digg a:hover{
     background-color:#1b1a19
 }
- .social-bg .delicious a,.social-bg-hover .delicious a:hover{
+.social-bg .delicious a,.social-bg-hover .delicious a:hover{
     background-color:#0076e8
 }
- .social-bg .codepen a,.social-bg-hover .codepen a:hover{
+.social-bg .codepen a,.social-bg-hover .codepen a:hover{
     background-color:#000
 }
- .social-bg .flipboard a,.social-bg-hover .flipboard a:hover{
+.social-bg .flipboard a,.social-bg-hover .flipboard a:hover{
     background-color:#f52828
 }
- .social-bg .reddit a,.social-bg-hover .reddit a:hover{
+.social-bg .reddit a,.social-bg-hover .reddit a:hover{
     background-color:#ff4500
 }
- .social-bg .whatsapp a,.social-bg-hover .whatsapp a:hover{
+.social-bg .whatsapp a,.social-bg-hover .whatsapp a:hover{
     background-color:#3fbb50
 }
- .social-bg .messenger a,.social-bg-hover .messenger a:hover{
+.social-bg .messenger a,.social-bg-hover .messenger a:hover{
     background-color:#0084ff
 }
- .social-bg .snapchat a,.social-bg-hover .snapchat a:hover{
+.social-bg .snapchat a,.social-bg-hover .snapchat a:hover{
     background-color:#ffe700
 }
- .social-bg .telegram a,.social-bg-hover .telegram a:hover{
+.social-bg .telegram a,.social-bg-hover .telegram a:hover{
     background-color:#179cde
 }
- .social-bg .paypal a, .social-bg-hover .paypal a:hover{
+.social-bg .paypal a, .social-bg-hover .paypal a:hover{
     background-color:#0070ba
 }
- .social-bg .steam a,.social-bg-hover .steam a:hover{
+.social-bg .steam a,.social-bg-hover .steam a:hover{
     background:linear-gradient(5deg,#0d89bc,#112c5b,#0d1c47)
 }
- .social-bg .discord a,.social-bg-hover .discord a:hover{
+.social-bg .discord a,.social-bg-hover .discord a:hover{
     background-color:#7289da
 }
- .social-bg .quora a,.social-bg-hover .quora a:hover{
+.social-bg .quora a,.social-bg-hover .quora a:hover{
     background-color:#b92b27
 }
- .social-bg .tiktok a,.social-bg-hover .tiktok a:hover{
+.social-bg .tiktok a,.social-bg-hover .tiktok a:hover{
     background-color:#fe2c55
 }
- .social-bg .share a,.social-bg-hover .share a:hover{
+.social-bg .patreon a,.social-bg-hover .patreon a:hover{
+    background-color:#f96854
+}
+.social-bg .share a,.social-bg-hover .share a:hover{
     background-color:var(--meta-color)
 }
- .social-bg .email a,.social-bg-hover .email a:hover{
+.social-bg .email a,.social-bg-hover .email a:hover{
     background-color:#888
 }
- .social-bg .external-link a,.social-bg-hover .external-link a:hover{
+.social-bg .external-link a,.social-bg-hover .external-link a:hover{
     background-color:var(--title-color)
 }
- .social-color .blogger a,.social-color-hover .blogger a:hover{
+.social-color .blogger a,.social-color-hover .blogger a:hover{
     color:#ff5722
 }
- .social-color .apple a,.social-color-hover .apple a:hover{
+.social-color .apple a,.social-color-hover .apple a:hover{
     color:#333
 }
- .social-color .amazon a,.social-color-hover .amazon a:hover{
+.social-color .amazon a,.social-color-hover .amazon a:hover{
     color:#fe9800
 }
- .social-color .microsoft a,.social-color-hover .microsoft a:hover{
+.social-color .microsoft a,.social-color-hover .microsoft a:hover{
     color:#0067B8
 }
- .social-color .facebook a,.social-color .facebook-f a,.social-color-hover .facebook a:hover,.social-color-hover .facebook-f a:hover{
+.social-color .facebook a,.social-color .facebook-f a,.social-color-hover .facebook a:hover,.social-color-hover .facebook-f a:hover{
     color:#1877f2
 }
- .social-color .twitter a,.social-color-hover .twitter a:hover{
+.social-color .twitter a,.social-color-hover .twitter a:hover{
     color:#00acee
 }
- .social-color .line a,.social-color-hover .line a:hover{
+.social-color .line a,.social-color-hover .line a:hover{
     color:#00b900
 }
- .social-color .youtube a,.social-color-hover .youtube a:hover{
+.social-color .youtube a,.social-color-hover .youtube a:hover{
     color:#f50000
 }
- .social-color .instagram a,.social-color-hover .instagram a:hover{
+.social-color .instagram a,.social-color-hover .instagram a:hover{
     color:#dd277b
 }
- .social-color .pinterest a,.social-color .pinterest-p a,.social-color-hover .pinterest a:hover,.social-color-hover .pinterest-p a:hover{
+.social-color .pinterest a,.social-color .pinterest-p a,.social-color-hover .pinterest a:hover,.social-color-hover .pinterest-p a:hover{
     color:#ca2127
 }
- .social-color .dribbble a,.social-color-hover .dribbble a:hover{
+.social-color .dribbble a,.social-color-hover .dribbble a:hover{
     color:#ea4c89
 }
- .social-color .linkedin a,.social-color-hover .linkedin a:hover{
+.social-color .linkedin a,.social-color-hover .linkedin a:hover{
     color:#0077b5
 }
- .social-color .tumblr a,.social-color-hover .tumblr a:hover{
+.social-color .tumblr a,.social-color-hover .tumblr a:hover{
     color:#365069
 }
- .social-color .twitch a,.social-color-hover .twitch a:hover{
+.social-color .twitch a,.social-color-hover .twitch a:hover{
     color:#6441a5
 }
- .social-color .rss a,.social-color-hover .rss a:hover{
+.social-color .rss a,.social-color-hover .rss a:hover{
     color:#ffc200
 }
- .social-color .skype a,.social-color-hover .skype a:hover{
+.social-color .skype a,.social-color-hover .skype a:hover{
     color:#00aff0
 }
- .social-color .stumbleupon a,.social-color-hover .stumbleupon a:hover{
+.social-color .stumbleupon a,.social-color-hover .stumbleupon a:hover{
     color:#eb4823
 }
- .social-color .vk a,.social-color-hover .vk a:hover{
+.social-color .vk a,.social-color-hover .vk a:hover{
     color:#4a76a8
 }
- .social-color .stack-overflow a,.social-color-hover .stack-overflow a:hover{
+.social-color .stack-overflow a,.social-color-hover .stack-overflow a:hover{
     color:#f48024
 }
- .social-color .github a,.social-color-hover .github a:hover{
+.social-color .github a,.social-color-hover .github a:hover{
     color:#24292e
 }
- .social-color .soundcloud a,.social-color-hover .soundcloud a:hover{
+.social-color .soundcloud a,.social-color-hover .soundcloud a:hover{
     color:#ff7400
 }
- .social-color .behance a,.social-color-hover .behance a:hover{
+.social-color .behance a,.social-color-hover .behance a:hover{
     color:#191919
 }
- .social-color .digg a,.social-color-hover .digg a:hover{
+.social-color .digg a,.social-color-hover .digg a:hover{
     color:#1b1a19
 }
- .social-color .delicious a,.social-color-hover .delicious a:hover{
+.social-color .delicious a,.social-color-hover .delicious a:hover{
     color:#0076e8
 }
- .social-color .codepen a,.social-color-hover .codepen a:hover{
+.social-color .codepen a,.social-color-hover .codepen a:hover{
     color:#000
 }
- .social-color .flipboard a,.social-color-hover .flipboard a:hover{
+.social-color .flipboard a,.social-color-hover .flipboard a:hover{
     color:#f52828
 }
- .social-color .reddit a,.social-color-hover .reddit a:hover{
+.social-color .reddit a,.social-color-hover .reddit a:hover{
     color:#ff4500
 }
- .social-color .whatsapp a,.social-color-hover .whatsapp a:hover{
+.social-color .whatsapp a,.social-color-hover .whatsapp a:hover{
     color:#3fbb50
 }
- .social-color .messenger a,.social-color-hover .messenger a:hover{
+.social-color .messenger a,.social-color-hover .messenger a:hover{
     color:#0084ff
 }
- .social-color .snapchat a,.social-color-hover .snapchat a:hover{
+.social-color .snapchat a,.social-color-hover .snapchat a:hover{
     color:#ffe700
 }
- .social-color .telegram a,.social-color-hover .telegram a:hover{
+.social-color .telegram a,.social-color-hover .telegram a:hover{
     color:#179cde
 }
- .social-color .paypal a, .social-color-hover .paypal a:hover{
+.social-color .paypal a, .social-color-hover .paypal a:hover{
     color:#0070ba
 }
- .social-color .steam a,.social-color-hover .steam a:hover{
+.social-color .steam a,.social-color-hover .steam a:hover{
     color:#112c5b
 }
- .social-color .discord a,.social-color-hover .discord a:hover{
+.social-color .discord a,.social-color-hover .discord a:hover{
     color:#7289da
 }
- .social-color .quora a,.social-color-hover .quora a:hover{
+.social-color .quora a,.social-color-hover .quora a:hover{
     color:#b92b27
 }
- .social-color .tiktok a,.social-color-hover .tiktok a:hover{
+.social-color .tiktok a,.social-color-hover .tiktok a:hover{
     color:#fe2c55
 }
- .social-color .share a,.social-color-hover .share a:hover{
+.social-color .patreon a,.social-color-hover .patreon a:hover{
+    color:#f96854
+}
+.social-color .share a,.social-color-hover .share a:hover{
     color:var(--meta-color)
 }
- .social-color .email a,.social-color-hover .email a:hover{
+.social-color .email a,.social-color-hover .email a:hover{
     color:#888
 }
- .social-color .external-link a,.social-color-hover .external-link a:hover{
+.social-color .external-link a,.social-color-hover .external-link a:hover{
     color:var(--title-color)
 }
  #header-wrapper{
