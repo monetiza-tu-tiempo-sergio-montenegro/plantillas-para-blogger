@@ -743,8 +743,8 @@ html:not(.is-dark) .content-section .video-style{--widget-bg:var(--video-widget-
 .entry-meta .entry-comments-link:before{display:inline-block;content:'\e8af';font-family:'Material Icons Round';font-size:16px;color:var(--main-color);font-weight:400;margin:0 4px 0 0}
 .rtl .entry-meta .entry-comments-link:before{margin:0 0 0 4px}
 .entry-meta .entry-comments-link.show{display:flex}
-#post-body{position:relative;float:left;width:100%;font-family:var(--text-font);font-size:$(itempost.content.size);color:var(--text-color);line-height:1.6em;margin:25px 0 0}
-.post-body p{margin-bottom:0px}
+#post-body{position:relative;float:left;width:100%;font-family:var(--text-font);font-size:$(itempost.content.size);color:var(--text-color);line-height: 1.5;margin:25px 0 0}
+.post-body p{margin-bottom:0px !important}
 .post-body h1,.post-body h2,.post-body h3,.post-body h4,.post-body h5,.post-body h6{font-size:17px;color:var(--title-color);line-height:1.3em;margin:0 0 20px}
 .post-body h1{font-size:26px}
 .post-body h2{font-size:23px}
