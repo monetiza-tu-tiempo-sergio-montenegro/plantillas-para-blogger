@@ -795,6 +795,7 @@ blockquote:before{position:absolute;top:0;left:5px;content:'\e244';font-family:'
 .post-body .btn.contact:before{content:'\e0e1'}
 .post-body .btn.whatsapp:before{content:'\f232';font-family:'Font Awesome 6 Brands';font-style:normal}
 .post-body .btn.paypal:before{content:'\f1ed';font-family:'Font Awesome 6 Brands';font-style:normal}
+.post-body .btn.patreon:before{content:'\f3d9';font-family:'Font Awesome 6 Brands';font-style:normal}
 .post-body .btn.gift:before{content:'\e8f6'}
 .post-body a.button:hover{background-color:var(--button-hover-bg);color:var(--button-hover-color)}
 .post-body a.color{color:#fff}
