@@ -484,7 +484,7 @@ h4{font-size:21px;line-height:26px}
 .colorful-ico .external-link a:before,.social .external-link:before{content:'\f35d';font-family:'Font Awesome 5 Free';font-weight:900}
 .colorful a:hover {opacity: 0.8;}
 .colorful a.blogger{color:#ff5722}
-.colorful a.facebook,.colorful a.facebook-f{color:#3b5999}
+.colorful a.facebook,.colorful a.facebook-f{color:#1877f2}
 .colorful a.twitter{color:#00acee}
 .colorful a.youtube{color:#f50000}
 .colorful a.messenger{color:#0084ff}
@@ -521,7 +521,7 @@ h4{font-size:21px;line-height:26px}
 .colorful a.share{color:var(--hero-color)}
 .colorful a.email{color:#888}
 .colorful a.external-link{color:#3500e5}
-.social-front-hover a.facebook,.social-front-hover a.facebook-f{background:#3b5999}
+.social-front-hover a.facebook,.social-front-hover a.facebook-f{background:#1877f2}
 .social-front-hover a.twitter{background:#00acee}
 .social-front-hover a.whatsapp{background:#3fbb50}
 .social-front-hover a.line{background:#00b900}
@@ -596,7 +596,7 @@ a.tociki-title:hover{text-decoration:none}
 .footer-checks-menu ul li a{float:left;font-size:14px;color:var(--footer-text-color);line-height:48px;padding:0 5px;margin:0}
 #footer-checks-menu ul li a:hover{color: var(--footer-pages-text-hover)}
 /*-- Top Social Menu CSS (IE/ IE9 etc.) --*/
-.sharing-button .facebook a,.sharing-button .facebook-f a{background-color:#3b5999}
+.sharing-button .facebook a,.sharing-button .facebook-f a{background-color:#1877f2}
 .sharing-button .twitter a,.sharing-button .twitter-square a{background-color:#00acee}
 .sharing-button .reddit a{background-color:#ff4500}
 .sharing-button .pinterest a,.sharing-button .pinterest-p a{background-color:#ca2127}
@@ -1650,7 +1650,7 @@ disqusShortname = "templateiki";
             <li class='email'><a class='email window-piki' data-height='460' data-width='550' expr:data-url='&quot;mailto:?subject=&quot; + data:view.title.jsEscaped + &quot;&amp;body=&quot; + data:view.url.canonical' href='javascript:;' rel='nofollow' title='Email'>Email</a></li>
             </div>
             <div class='copy-section'>
-                <span class='title'><data:messages.copy/><data:messages.postLink/></span>
+                <span class='title'><data:messages.copy/> <data:messages.postLink/></span>
                 <div class='copy-post'>
                <input expr:value='data:blog.url.canonical' id='showlink' readonly='readonly'/><button expr:aria-label='data:messages.copy' expr:title='data:messages.copy'><data:messages.copy/></button>
                     <div class='messageDone' id='messageDone'/>
