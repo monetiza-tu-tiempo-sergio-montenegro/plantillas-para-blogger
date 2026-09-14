@@ -364,7 +364,7 @@ body{position:relative;background:var(--body-color-main);font-family:var(--body-
 li a.fa-twitter:before{content:"\e61b"}
 .colorful a:hover {opacity: 0.8;}
 .colorful .blogger a{color:#ff5722}
-.colorful .facebook a,.colorful .facebook-f a{color:#3b5999}
+.colorful .facebook a,.colorful .facebook-f a{color:#1877f2}
 .colorful .twitter a{color:#00acee}
 .colorful .youtube a{color:#f50000}
 .colorful .messenger a{color:#0084ff}
@@ -377,7 +377,12 @@ li a.fa-twitter:before{content:"\e61b"}
 .colorful .microsoft a{color:#0165b4}
 .colorful .dribbble a{color:#ea4c89}
 .colorful .linkedin a{color:#0077b5}
+.colorful .mastodon a{color:#6364ff}
+.colorful .line a{color:#00b900}
+.colorful .wordpress a{color:#0073aa}
 .colorful .tiktok a{color:#fe2c55}
+.colorful .threads a{color:#dd277b}
+.colorful .bluesky a{color:#0085ff}
 .colorful .stumbleupon a{color:#eb4823}
 .colorful .vk a{color:#4a76a8}
 .colorful .stack-overflow a{color:#f48024}
@@ -398,7 +403,7 @@ li a.fa-twitter:before{content:"\e61b"}
 .colorful .share a{color:var(--hero-color)}
 .colorful .email a{color:#888}
 .colorful .external-link a{color:#3500e5}
-.social-front-hover a.fa-facebook,.social-front-hover a.fa-facebook-f{background:#3b5999}
+.social-front-hover a.fa-facebook,.social-front-hover a.fa-facebook-f{background:#1877f2}
 .social-front-hover a.fa-twitter{background:#00acee}
 .social-front-hover a.fa-whatsapp{background:#3fbb50}
 .Super-Menu-logo{display:none}
@@ -1565,7 +1570,7 @@ body#layout #json > h4:after{content:' - Set Pagination Posts and Text'}
 <link href='https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700&amp;display=swap' rel='stylesheet'/>
 </b:if>
 <!-- Font Awesome Brands -->
-<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css' rel='stylesheet'/>
+<link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/brands.min.css' rel='stylesheet'/>
 </b:if>
 </b:includable>
     <b:includable id='widget-title'>
