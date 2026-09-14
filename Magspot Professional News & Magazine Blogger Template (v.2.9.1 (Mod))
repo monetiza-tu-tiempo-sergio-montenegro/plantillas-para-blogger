@@ -389,6 +389,8 @@ a,input,button{transition:all .0s ease}
 .sb-a .share a,.sb-h .share a:hover{background-color:var(--meta-color)}
 .sb-a .email a,.sb-h .email a:hover{background-color:#888}
 .sb-a .line a,.sb-h .line a:hover{background-color:#07b53b}
+.sb-a .paypal a,.sb-h .paypal a:hover{background-color:#003087}
+.sb-a .patreon a,.sb-h .patreon a:hover{background-color:#ff424d}
 .sb-a .external-link a,.sb-h .external-link a:hover{background-color:var(--title-color)}
 .sc-a .blogger a,.sc-h .blogger a:hover{color:#1a73e8}
 .sc-a .blogger a,.sc-h .blogger a:hover{color:#ff5722}
@@ -428,6 +430,8 @@ a,input,button{transition:all .0s ease}
 .sc-a .share a,.sc-h .share a:hover{color:var(--meta-color)}
 .sc-a .email a,.sc-h .email a:hover{color:#888}
 .sc-a .line a,.sc-h .line a:hover{color:#07b53b}
+.sc-a .paypal a,.sc-h .paypal a:hover{color:#003087}
+.sc-a .patreon a,.sc-h .patreon a:hover{color:#ff424d}
 .sc-a .external-link a,.sc-h .external-link a:hover{color:var(--title-color)}
 .sb-a .threads a,.sb-h .threads a:hover{background-color:#000}
 .sc-a .threads a,.sc-h .threads a:hover{color:#000}
