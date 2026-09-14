@@ -478,6 +478,8 @@ h4{font-size:21px;line-height:26px}
 .colorful-ico .codepen a:before,.social .codepen:before{content:"\f1cb"}
 .colorful-ico .snapchat a:before,.social .snapchat:before{content:"\f2ac"}
 .colorful-ico .tiktok a:before,.social .tiktok:before{content:"\e07b"}
+.colorful-ico .line a:before,.social .line:before{content:"\f3c0"}
+.colorful-ico .patreon a:before,.social .patreon:before{content:"\f3d9"}
 .colorful-ico .email a:before,.social .email:before{content:'\f0e0';font-family:'Font Awesome 5 Free'}
 .colorful-ico .external-link a:before,.social .external-link:before{content:'\f35d';font-family:'Font Awesome 5 Free';font-weight:900}
 .colorful a:hover {opacity: 0.8;}
@@ -514,12 +516,16 @@ h4{font-size:21px;line-height:26px}
 .colorful a.paypal{color:#222d65}
 .colorful a.tiktok{color:#fe2c55}
 .colorful a.discord{color:#7289da}
+.colorful a.line{color:#00b900}
+.colorful a.patreon{color:#ff424d}
 .colorful a.share{color:var(--hero-color)}
 .colorful a.email{color:#888}
 .colorful a.external-link{color:#3500e5}
 .social-front-hover a.facebook,.social-front-hover a.facebook-f{background:#3b5999}
 .social-front-hover a.twitter{background:#00acee}
 .social-front-hover a.whatsapp{background:#3fbb50}
+.social-front-hover a.line{background:#00b900}
+.social-front-hover a.patreon{background:#ff424d}
 .Super-Menu-logo{display:none}
 .LSpeed-filter-logo{display:none}
 .dark .post-body ol>li:before{color:#eee}
