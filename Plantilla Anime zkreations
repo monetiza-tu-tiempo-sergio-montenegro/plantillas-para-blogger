@@ -2194,8 +2194,8 @@ document.body.classList.remove("no-js");
           <a class='btn btn-border wjs-window' expr:href='params(data:post.shareUrl,{target: "twitter"})'><i class='fab fa-twitter fa-mn fa-fw'/></a>
           <a class='btn btn-border wjs-window' expr:href='params(data:post.shareUrl,{target: "pinterest"})'><i class='fab fa-pinterest-p fa-mn fa-fw'/></a>
           <a class='btn btn-border wjs-window' expr:href='params("//www.tumblr.com/widgets/share/tool/preview",{canonicalUrl: data:post.url.canonical, caption: data:post.snippets.short, posttype: "link", title: data:post.title})'><i class='fab fa-tumblr fa-mn fa-fw'/></a>
+          <a class='btn btn-border wjs-window' expr:href='params(data:post.shareUrl,{target: "email"})'><i class='fas fa-at fa-mn fa-fw'/></a>
           <b:if cond='data:post.emailPostUrl'>
-            <a class='btn btn-border wjs-window' expr:href='params(data:post.shareUrl,{target: "email"})'><i class='fas fa-at fa-mn fa-fw'/></a>
           </b:if>
         </div>
       </b:if>
@@ -2377,8 +2377,8 @@ document.body.classList.remove("no-js");
         <a class='btn btn-border wjs-window' expr:href='params(data:post.shareUrl,{target: "facebook"})'><i class='fab fa-facebook-f fa-mn fa-fw'/></a>
         <a class='btn btn-border wjs-window' expr:href='params(data:post.shareUrl,{target: "twitter"})'><i class='fab fa-twitter fa-mn fa-fw'/></a>
         <a class='btn btn-border wjs-window' expr:href='params(data:post.shareUrl,{target: "pinterest"})'><i class='fab fa-pinterest-p fa-mn fa-fw'/></a>
+        <a class='btn btn-border wjs-window' expr:href='params(data:post.shareUrl,{target: "email"})'><i class='fas fa-at fa-mn fa-fw'/></a>
         <b:if cond='data:post.emailPostUrl'>
-          <a class='btn btn-border wjs-window' expr:href='params(data:post.shareUrl,{target: "email"})'><i class='fas fa-at fa-mn fa-fw'/></a>
         </b:if>
       </div>
     </b:includable>
