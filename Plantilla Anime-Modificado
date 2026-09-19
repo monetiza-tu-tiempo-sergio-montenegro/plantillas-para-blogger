@@ -35,7 +35,7 @@
         General
         =====================
         <Variable name="g.scheme" description="Scheme by default" type="string" value="light"/>
-        <Variable name="g.toggleScheme" description="Show toggle scheme" type="string" value="false"/>
+        <Variable name="g.toggleScheme" description="Show toggle scheme" type="string" value="true"/>
         <Variable name="g.modalSearch" description="Enable modal search" type="string" value="true"/>
         <Variable name="g.formspree" description="Form ID" type="string" value="YourID"/>
 
