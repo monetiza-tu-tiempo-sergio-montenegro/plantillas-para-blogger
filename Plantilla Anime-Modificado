@@ -2962,7 +2962,7 @@ window.addEventListener('DOMContentLoaded', () => {
                       <b:with value='([false,true] not contains data:sidebar and (data:sidebar + 0 != data:sidebar)) ? data:sidebar : &quot;home, index, search, labels, archive, item, static_page, error_page&quot;' var='hasSidebar'>
                         <b:if cond='(data:hasSidebar contains data:pageType) or data:view.isLayoutMode'>
                           <b:section ads='true' class='sidebar flex flex-column b:skin-g1' cond='data:widgets any (w =&gt; w.sectionId == &quot;sidebar&quot;) and not (data:customSidebar.post or data:customSidebar.page or data:customSidebar.filter)' id='sidebar'>
-                            <b:widget id='BlogSearch51' locked='false' title='Buscar en este blog' type='BlogSearch' visible='true'>
+                            <b:widget id='BlogSearch51' locked='true' title='Buscar en este blog' type='BlogSearch' visible='true'>
                               <b:includable id='main' var='this'>
           <b:include data='data:this.title' name='$:content'/>
         </b:includable>
