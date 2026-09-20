@@ -305,9 +305,12 @@
 => YOUR CUSTOM CSS STARTS HERE
 */
 
-.typography {--tg-spacer: 0} .typography br {display: initial} body {hyphens: initial}.gallery-time {display: none;}
+.typography {--tg-spacer: 0} .typography br {display: initial} body {hyphens: initial}.gallery-time {display: none !important;} .populars-meta {display: none !important;}
 
-
+.typography pre>code {overflow: auto; max-height: 500px;}
+.columns {
+    --tg-spacer: 1.5rem;
+}    
 
 
 ]]></b:skin>
