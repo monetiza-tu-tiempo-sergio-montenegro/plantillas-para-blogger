@@ -312,6 +312,18 @@
     --tg-spacer: 1.5rem;
 }    
 
+.post-body iframe.instagram-media,
+.post-body blockquote.instagram-media,
+iframe.instagram-media-rendered {
+  min-height: 750px !important;
+  height: auto !important;
+  max-height: none !important;
+  overflow: visible !important;
+}
+.post-body .instagram-media-rendered {
+  display: block !important;
+  margin: 0 auto !important;
+}
 
 ]]></b:skin>
 <b:else/>
