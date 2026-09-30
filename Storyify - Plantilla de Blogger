@@ -2653,7 +2653,7 @@ color:#fff;
 }
 .firstcharacter{
     float:left;
-    color:#27ae60;
+    color:$(main.color);
     font-size:75px;
     line-height:60px;
     padding-right:8px;
@@ -3976,7 +3976,7 @@ color:#fff;
     border:0
 }
  .contact-form-widget .contact-form-success-message-with-border{
-    color:#27ae60
+    color:$(main.color);
 }
  .rtl .contact-form-error-message-with-border,.rtl .contact-form-success-message-with-border{
     text-align:right
@@ -6146,7 +6146,7 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
       <form class='search-form' expr:action='data:blog.searchUrl'>
         <b:attr cond='not data:view.isPreview' name='target' value='_top'/>
         <b:include name='urlParamsAsFormInput'/>
-        <input autocomplete='off' class='search-input' expr:ariby='data:messages.search' expr:placeholder='data:messages.search' name='q' value=''/>
+        <input autocomplete='off' class='search-input' expr:ariby='data:messages.searchBlog' expr:placeholder='data:messages.searchBlog' name='q' value=''/>
         <b:include name='searchSubmit'/>
       </form>
     </b:includable>
@@ -6330,15 +6330,15 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
               <div class='flex-right'>
                 <div class='main-toggle-wrap'>
                   <b:tag class='main-toggle-style darkmode-toggle' cond='data:skin.vars.darkmode == &quot;0px&quot; and (data:skin.vars.userdarkmode == &quot;1px&quot;)' href='javascript:;' name='a' role='button'/>
-                  <b:tag class='main-toggle-style show-search btn' expr:title='data:messages.search' href='javascript:;' name='a' role='button'/>
+                  <b:tag class='main-toggle-style show-search btn' expr:title='data:messages.searchBlog' href='javascript:;' name='a' role='button'/>
                 </div>
               </div>
               <div id='main-search-wrap'>
                 <div class='main-search'>
                   <form class='search-form' expr:action='data:blog.searchUrl' role='search'>
-                    <input autocomplete='off' class='search-input' expr:placeholder='data:messages.search' name='q' type='search' value=''/>
+                    <input autocomplete='off' class='search-input' expr:placeholder='data:messages.searchBlog' name='q' type='search' value=''/>
                   </form>
-                  <b:tag class='main-toggle-style hide-search btn' expr:title='data:messages.search' href='javascript:;' name='a' role='button'/>
+                  <b:tag class='main-toggle-style hide-search btn' expr:title='data:messages.searchBlog' href='javascript:;' name='a' role='button'/>
                 </div>
               </div>
             </div>
@@ -6368,7 +6368,7 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
       <b:section class='trending container row-x1' id='trending' maxwidgets='1' name='Trending Posts' showaddelement='yes'>
         <b:widget id='HTML8' locked='false' title='' type='HTML' visible='true'>
           <b:widget-settings>
-            <b:widget-setting name='content'>{getTrending} $label={Nature}</b:widget-setting>
+            <b:widget-setting name='content'>{getTrending} $label={recent}</b:widget-setting>
           </b:widget-settings>
           <b:includable id='main'>
       <b:include name='html-content'/>
@@ -6940,7 +6940,7 @@ var noThumbnail = "https://4.bp.blogspot.com/-eALXtf-Ljts/WrQYAbzcPUI/AAAAAAAABj
           </b:widget>
         </b:section>
         <b:section cond='data:view.isLayoutMode or (data:view.isPost and (data:widgets any w =&gt; w.sectionId == &quot;storyify-pro-post-footer-ads&quot;))' id='storyify-pro-post-footer-ads' maxwidgets='1' name='Post ADS 3' showaddelement='yes'>
-          <b:widget id='HTML9' locked='false' title='Travel' type='HTML' visible='false'>
+          <b:widget id='HTML9' locked='false' title='' type='HTML' visible='false'>
             <b:widget-settings>
               <b:widget-setting name='content'><![CDATA[<a class="ads-here" href="#">Responsive Advertisement</a>]]></b:widget-setting>
             </b:widget-settings>
@@ -7403,7 +7403,7 @@ document.addEventListener("DOMContentLoaded", initYouTubeVideos);
   <div class='slide-menu-header'>
     <div class='mobile-search'>
       <form class='search-form' expr:action='data:blog.searchUrl' role='search'>
-        <input autocomplete='off' class='search-input' expr:placeholder='data:messages.search' name='q' type='search' value=''/>
+        <input autocomplete='off' class='search-input' expr:placeholder='data:messages.searchBlog' name='q' type='search' value=''/>
         <button class='search-action' type='submit' value=''/>
       </form>
     </div>
